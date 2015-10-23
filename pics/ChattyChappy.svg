@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="525px" height="317px" viewBox="0 0 525 317" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.2 (12043) - http://www.bohemiancoding.com/sketch -->
+    <title>Slice 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Group" sketch:type="MSLayerGroup" transform="translate(70.000000, 69.000000)">
+            <circle id="Oval-1" stroke="#F8E81C" fill="#F8E81C" sketch:type="MSShapeGroup" cx="64" cy="114" r="64"></circle>
+            <circle id="Oval-2-Copy" stroke="#F8E81C" fill="#000000" sketch:type="MSShapeGroup" cx="88.1199951" cy="89.8203125" r="12.5"></circle>
+            <circle id="Oval-2" stroke="#F8E81C" fill="#000000" sketch:type="MSShapeGroup" cx="41.7910156" cy="89.8203125" r="12.5"></circle>
+            <path d="M99,163 C99,143.670034 83.3299662,128 64,128 C44.6700338,128 29,143.670034 29,163 L99,163 Z" id="Mouth" stroke="#000000" stroke-width="3" fill="#FFFFFF" sketch:type="MSShapeGroup" transform="translate(64.000000, 145.500000) rotate(-180.000000) translate(-64.000000, -145.500000) "></path>
+            <path d="M22.1216216,56.6751019 L0.5,56.6751019 L0.5,62.0507812 L128.5,62.0507812 L128.5,56.6751019 L106.878378,56.6751019 L106.878378,0.23046875 L22.1216216,0.23046875 L22.1216216,56.6751019 Z" id="Rectangle-2" stroke="#000000" fill="#000000" sketch:type="MSShapeGroup"></path>
+            <path d="M42.5,128.5 L42.5,154" id="Line" stroke="#000000" stroke-width="3" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+            <path d="M55.5,128.5 L55.5,161.5" id="Line" stroke="#000000" stroke-width="3" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+            <path d="M72.5,128 L72.5,161" id="Line" stroke="#000000" stroke-width="3" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+            <path d="M87.5,128.5 L87.5,152.5" id="Line" stroke="#000000" stroke-width="3" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+            <path d="M94.5,143.5 L34,143.5" id="Line" stroke="#000000" stroke-width="3" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+        </g>
+        <text id="Chatty" fill="#000000" sketch:type="MSTextLayer" font-family="HanziPen TC" font-size="77" font-weight="bold">
+            <tspan x="220" y="126">Chatty</tspan>
+            <tspan x="220" y="234">Chappy</tspan>
+        </text>
+    </g>
+</svg>

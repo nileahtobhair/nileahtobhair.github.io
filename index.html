@@ -1,0 +1,33 @@
+---
+layout: default
+---
+<html>
+<body>
+  <div class="home">
+    <h1> Niamh Lawlor </h1>
+    <h1>Student | Software Engineer</h1>
+    <img src="pics/profil2.jpg" width="220" height="220">
+   </div>
+
+    <div id="proj">
+      <h1> Recent Work </h1>
+       
+     <p>Project 1</p>
+     <p>Project 2</p>
+     <p> Project 3</p>
+   
+   </div>
+   <div id="blogSum">
+     <h1> Latest Blog Posts </h1>
+      <ul >
+    {% for post in site.posts limit:3%}
+      <li>
+        <h2>
+          <a href="{{ post.url | prepend: site.baseurl }}"> - {{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+  </div>
+</body>
+<html>
