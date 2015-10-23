@@ -5,6 +5,18 @@ permalink: /about/
 ---
 <html>
 <body>
+		<?php
+			$userid = "lawlipopps";
+			$accessToken = "aee693518b24451c8b5e2f87f77fe99a";
+			$url = "https://api.instagram.com/v1/users/{$userid}/media/recent/?access_token={$accessToken}";
+			$ch = curl_init();
+			curl_setopt($ch, CURLOPT_URL, $url);
+			curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+			curl_setopt($ch, CURLOPT_TIMEOUT, 20);
+			$result = curl_exec($ch);
+			curl_close($ch); 
+			$result = json_decode($result);
+		?>
 		<div id="abouts"><p> About Me</p></div>
 	    <div class="wrapper">
 	    	<div id="aboutContent">
@@ -20,6 +32,8 @@ permalink: /about/
 				</div> -->
 			</div>
   		</div>
+  	
+	
 </body>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
