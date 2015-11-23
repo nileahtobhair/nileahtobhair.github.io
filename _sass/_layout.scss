@@ -336,6 +336,10 @@
 .post-link {
     display: block;
     font-size: 2em;
+     @include media-query($on-laptop) {
+        font-size: 20px;
+    }
+
 }
 
 .post-excerpt{
@@ -345,7 +349,9 @@
         color: $main-red;
         font-size: 0.75em;
         font-style: italic;
-
+    }
+    @include media-query($on-laptop) {
+        font-size: 10px;
     }
 }
 
