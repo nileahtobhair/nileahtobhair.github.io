@@ -324,7 +324,7 @@
     list-style: none;
 
     li {
-        margin-bottom: 7%;
+        margin-bottom: 15%;
     }
 }
 
@@ -360,12 +360,21 @@
  */
  .post{
  overflow:auto;
+  margin-top: 5%;
+  h1{
+     @include media-query($on-laptop) {
+        font-size: 25px;
+        margin-top: 10%;
+    }
+  }
  }
 .post-header {
     margin-bottom: 2%;
     overflow:auto;
-    margin-top: 5%;
     text-align:center;
+    @include media-query($on-laptop) {
+        font-size: 16px;
+    }
    
 }
 
@@ -373,17 +382,16 @@
     font-size: 2em;
     line-height: 1;
     text-align: center;
-    @include media-query($on-laptop) {
-        font-size: 36px;
-    }
+   
 }
 
 .post-content {
     overflow:auto;
-    margin: 0 auto 5% auto;
+    margin: 5% auto 5% auto;
     width: 70%;
     @include media-query($on-laptop) {
             width: 100%;
+            margin-top: 10%; 
         }
     #about{
 
