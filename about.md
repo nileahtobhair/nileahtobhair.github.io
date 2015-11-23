@@ -4,19 +4,13 @@ title: About
 permalink: /about/
 ---
 <html>
+
+<head>
+<script type="text/javascript" src="{{site.baseurl}}/scripts/instaGrid.js"></script>
+<link href="{{site.baseurl}}/scripts/instaGrid.css" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+</head>
 <body>
-		<?php
-			$userid = "lawlipopps";
-			$accessToken = "aee693518b24451c8b5e2f87f77fe99a";
-			$url = "https://api.instagram.com/v1/users/{$userid}/media/recent/?access_token={$accessToken}";
-			$ch = curl_init();
-			curl_setopt($ch, CURLOPT_URL, $url);
-			curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-			curl_setopt($ch, CURLOPT_TIMEOUT, 20);
-			$result = curl_exec($ch);
-			curl_close($ch); 
-			$result = json_decode($result);
-		?>
 		<div id="abouts"><p> About Me</p></div>
 	    <div class="wrapper">
 	    	<div id="aboutContent">
@@ -25,16 +19,26 @@ permalink: /about/
 				 <br>
 				<p class="about">Aside from my technical interests, I like to read and write, have a keen interest in sport and love to travel and explore new cultures and languages. As part of my degree, I spent a year studying abroad in Lyon, France and thoroughly enjoyed my time there.</p>
 				<br>
-				<!--<div id="aboutsite">
-					<h2> About this site</h2>
-					<br>±
-					The site is built using jekyll and hosted on github pages with a customised version of the vanilla theme that comes as standard.<br> I briefly toyed around with making my own node blog engine but in the end decided there was no need to reinvent the wheel. I also considered using tumblr or a heavier CMS like wordpress but in the felt that jekyll was best suited to my needs.
-				</div> -->
 			</div>
-  		</div>
+			<div id="grid">
+			</div>
+		<div>
+  
   	
 	
 </body>
+
+<script type="text/javascript">
+	$(document).ready(function(){
+	instaGrid.init({
+		element: 'grid',
+		clientID: 'afbeea04c7e24a059332b40ed96e432e',
+		userID: '38657779',
+		size: '9'
+	});
+});
+
+	</script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
