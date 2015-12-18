@@ -332,7 +332,7 @@
     font-size: 1.25em;
     color: $main-red;
     @include media-query($on-laptop) {
-        font-size: 12px;
+        font-size: 9px;
     }
 }
 
@@ -366,7 +366,7 @@
   h1{
      @include media-query($on-laptop) {
         font-size: 25px;
-        margin-top: 10%;
+ 
     }
   }
  }
