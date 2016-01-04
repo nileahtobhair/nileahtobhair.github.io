@@ -175,7 +175,6 @@
         background: #E6E6E6;
         padding: 5% 0;
     h1{
-        margin-bottom:5%;
         font-size: 2.5em;
         color: $main-red;
         margin-bottom: 2%;
@@ -185,8 +184,8 @@
     a,ul,li{
         text-decoration: none;
         list-style: none;
-        margin-bottom: 1%; 
         font-size: 1.05em;
+        margin: 0 0 1% 0;
     }
 
 }
@@ -363,6 +362,7 @@
  */
  .post{
  overflow:auto;
+ margin-top: 5%;
   h1{
      @include media-query($on-laptop) {
         font-size: 25px;

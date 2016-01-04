@@ -25,7 +25,7 @@ layout: default
     {% for post in site.posts limit:3%}
       <li>
         <h2>
-          <a href="{{ post.url | prepend: site.baseurl }}"> - {{ post.title }}</a>
+          <a href="{{ post.url | prepend: site.baseurl }}"> {{ post.title }}</a>
         </h2>
       </li>
     {% endfor %}
