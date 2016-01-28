@@ -6,42 +6,25 @@ permalink: /contact/
 <div class="wrapper">
 	<div class="contact">
 		<h1> Get In Touch </h1>
-	
+	   <form method="post" action="{{site.baseurl}}/scripts/index.php"> 
+            <label> Name</label>
+            <input name="name" placeholder="Type here">
+
+            <label> Email</label>
+            <input name="email" type="email" placeholder="Type here">
+            
+            <label> Message</label>
+            <textarea name="message" placeholder="Type here"></textarea>
+
+            <label>*What is 2+2? (Anti-spam)</label>
+            <input name="human" placeholder="Type Here">
+
+            <input id="submit" name="submit" type="submit" value="Submit">
+
+        </form>
+            
 	</div>
 				
-<?php 
-$action=$_REQUEST['action']; 
-if ($action=="")    /* display the contact form */ 
-    { 
-    ?> 
-    <form  action="" method="POST" enctype="multipart/form-data"> 
-    <input type="hidden" name="action" value="submit"> 
-    Your name:<br> 
-    <input name="name" type="text" value="" size="30"/><br> 
-    Your email:<br> 
-    <input name="email" type="text" value="" size="30"/><br> 
-    Your message:<br> 
-    <textarea name="message" rows="7" cols="30"></textarea><br> 
-    <input type="submit" value="Send email"/> 
-    </form> 
-    <?php 
-    }  
-else                /* send the submitted data */ 
-    { 
-    $name=$_REQUEST['name']; 
-    $email=$_REQUEST['email']; 
-    $message=$_REQUEST['message']; 
-    if (($name=="")||($email=="")||($message=="")) 
-        { 
-        echo "All fields are required, please fill <a href=\"\">the form</a> again."; 
-        } 
-    else{         
-        $from="From: $name<$email>\r\nReturn-path: $email"; 
-        $subject="Message sent using your contact form"; 
-        mail("youremail@yoursite.com", $subject, $message, $from); 
-        echo "Email sent!"; 
-        } 
-    }   
-?>
+
 	
 </div>
