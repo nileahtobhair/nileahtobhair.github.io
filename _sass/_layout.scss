@@ -123,62 +123,35 @@
           text-align: center;
           color:white;
           font-size: 3em;
+          font-size: 3vw;
+          width: 50%;
+          margin: 0 auto;
+          display: block;
     }
     h1:first-of-type{
         padding-top: 9%;
     }
-    h1:nth-of-type(2){
-        margin-bottom:4%;
-    }
     img{
         text-align: center;
         border-radius: 50%;
-        margin: 1% auto 0 auto;
+        margin: 5% auto 0 auto;
         display: block;
         border: 6px solid white;
     }
 }
-   #proj{ /*list of projects on home page*/
-        width: 85%;
-        margin: 0 auto;
-    h1{
-        margin-bottom:5%;
-        font-size: 3em;
-    }
-    img{
-
-        margin:3% 6%;
-
-    }
-  
-    p{
-        border : 1px solid black;
-        width: 30%;
-        float: left;
-        padding: 7% 0;
-
-    }
-    p:nth-of-type(2){
-        border: 1px solid black;
-        margin-left: 4.5%;
-        margin-right:4.5%;
-    }
-        margin-top: 10%;
-        text-align:center;
-        overflow:auto;
-    }
+   
   
  #blogSum{
         text-align:center;
-        margin-top:10%;
+        margin-top:5%;
         margin-bottom: 0%;
-        background: #E6E6E6;
+        //background: #E6E6E6;
         padding: 5% 0;
     h1{
-        font-size: 2.5em;
+        font-size: 3.5em;
         color: $main-red;
-        margin-bottom: 2%;
-        font-style: italic;
+        margin-bottom: 4%;
+        font-family: "Courier New"
         }
  
     a,ul,li{
@@ -190,39 +163,41 @@
 
 }
 
-/**
- * Contact
- */
-.contact{
-    text-align: center;
-    font-size: 1.25em;
-    h1{
-        margin-bottom: 5%;
-        font-size: 3em;
+#interactiveCV{
+    background: #DEEFE7;
+    padding: 0;
+    img{
+    width: 90%;
+    margin:5% auto 0 auto;
+    display: block;
     }
 }
+
+
 /*
  * Comments
  */
 
  .comments{
     width: 70%;
-    margin: 5% auto;
+ //   margin: 5% auto;
     display: block;
  }
 /**
  *  Footer
  */
 .site-footer {
-    border-top: 1px solid $grey-color-light;
-    padding: 0 0;
+    border-top: 3px solid $grey-color-light;
+    padding: 2% 0;
+    margin: 0;
 }
 
 .footer-list{
     width:50%;
     text-align:center;
-    margin:2.5% auto;
+    margin:2% auto;
     display:block;
+    padding:0;
     img{
         width:10%;
         margin: 0 10%;
@@ -233,64 +208,6 @@
 .social-media-list {
     list-style: none;
     margin-left: 0;
-}
-
-.footer-col-wrapper {
-    margin-right:7%;
-    margin-top:3%;
-    padding-left:5%;
-    font-size: 15px;
-    color: $grey-color;
-    margin-left: -$spacing-unit / 2;
-    @extend %clearfix;
-}
-
-.footer-col {
-    float: left;
-    margin-bottom: $spacing-unit / 2;
-    padding-left: $spacing-unit / 2;
-}
-
-.footer-col-1 {
-    width: -webkit-calc(35% - (#{$spacing-unit} / 2));
-    width:         calc(35% - (#{$spacing-unit} / 2));
-}
-
-.footer-col-2 {
-    width: -webkit-calc(20% - (#{$spacing-unit} / 2));
-    width:         calc(20% - (#{$spacing-unit} / 2));
-}
-
-.footer-col-3 {
-    width: -webkit-calc(45% - (#{$spacing-unit} / 2));
-    width:         calc(45% - (#{$spacing-unit} / 2));
-}
-
-@include media-query($on-laptop) {
-    .footer-col-1,
-    .footer-col-2 {
-        width: -webkit-calc(50% - (#{$spacing-unit} / 2));
-        width:         calc(50% - (#{$spacing-unit} / 2));
-    }
-
-    .footer-col-3 {
-        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-        width:         calc(100% - (#{$spacing-unit} / 2));
-    }
-}
-
-@include media-query($on-palm) {
-    .footer-col {
-        float: none;
-        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-        width:         calc(100% - (#{$spacing-unit} / 2));
-    }
-    .home{
-       h1:first-of-type{
-        padding-top: 15%;
-       }
-    }
-
 }
 
 

@@ -66,6 +66,7 @@ figcaption {
  */
 ul, ol {
     margin-left: $spacing-unit;
+    padding:0;
 }
 
 li {
@@ -82,6 +83,7 @@ li {
  */
 h1, h2, h3, h4, h5, h6 {
     font-weight: 300;
+    padding:0;
 }
 
 
@@ -92,7 +94,7 @@ h1, h2, h3, h4, h5, h6 {
 a {
     color: $brand-color;
     text-decoration: none;
-
+    padding:0;
     &:visited {
         color: darken($brand-color, 15%);
     }
