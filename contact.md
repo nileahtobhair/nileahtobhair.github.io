@@ -5,25 +5,12 @@ permalink: /contact/
 ---
 <div class="wrapper">
 	<div class="contact">
-		<h1> Get In Touch </h1>
-	   <form method="post" action="{{site.baseurl}}/scripts/index.php"> 
-            <label> Name</label>
-            <input name="name" placeholder="Type here">
 
-            <label> Email</label>
-            <input name="email" type="email" placeholder="Type here">
-            
-            <label> Message</label>
-            <textarea name="message" placeholder="Type here"></textarea>
+    <!-- Change the width and height values to suit you best -->
+<div class="typeform-widget" data-url="https://niamh12.typeform.com/to/IE8tjo" data-text="Contact Form" style="width:100%;height:500px;"></div>
+<script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'widget.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()</script>
+    <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;">Powered by <a href="http://www.typeform.com/?utm_campaign=IE8tjo&amp;utm_source=typeform.com-381087-Basic&amp;utm_medium=typeform&amp;utm_content=typeform-embedded&amp;utm_term=EN" style="color: #999" target="_blank">Typeform</a></div>
 
-            <label>*What is 2+2? (Anti-spam)</label>
-            <input name="human" placeholder="Type Here">
-
-            <input id="submit" name="submit" type="submit" value="Submit">
-
-        </form>
-            
-	</div>
 				
 
 	
