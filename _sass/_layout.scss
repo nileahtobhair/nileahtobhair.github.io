@@ -113,13 +113,11 @@
       $main-red, 
       $main-red
     ), url("../pics/me.jpg");
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
-        background-attachment: fixed;
-        height: 650px;
+        background-size:cover;
         padding-bottom: 0%;
         margin:0;
-    h1{
+        height:93vh;
+     h1{
           text-align: center;
           color:white;
           font-size: 3em;
