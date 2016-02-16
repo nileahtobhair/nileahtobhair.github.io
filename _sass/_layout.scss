@@ -154,6 +154,10 @@
             margin-top: 5%;
             }
         }
+
+         @media screen and ( max-height: 300px ){
+           background: blue;
+        }
 }
    
   
