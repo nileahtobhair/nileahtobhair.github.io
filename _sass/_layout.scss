@@ -120,9 +120,8 @@
      h1{
           text-align: center;
           color:white;
-          font-size: 3em;
-          font-size: 3vw;
-          width: 50%;
+          font-size: 3.5vw;
+          width: 70%;
           margin: 0 auto;
           display: block;
     }
@@ -136,6 +135,18 @@
         display: block;
         border: 6px solid white;
     }
+
+       @include media-query($on-palm) {
+        img{
+            width:220px;
+            height:220px;
+            margin-top: 15%;
+        }
+        h1{
+            font-size: 2em;
+            width: 100%;
+        }
+       }
 }
    
   
@@ -158,6 +169,15 @@
         font-size: 1.05em;
         margin: 0 0 1% 0;
     }
+
+     @include media-query($on-palm) {
+        h1{
+            font-size: 2em;
+        }
+       a,ul,li{
+        font-size: 0.9em;
+       }
+       }
 
 }
 
