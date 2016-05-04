@@ -25,18 +25,10 @@
 .site-nav {
     float: right;
     line-height: 56px;
-    .menu-icon {
-        display: none;
-    }
 
     .page-link {
         color: $text-color;
         line-height: $base-line-height;
-
-        // Gaps between nav items, but not on the first one
-        &:not(:first-child) {
-            margin-left: 20px;
-        }
     }
 
     @include media-query($on-palm) {
@@ -56,6 +48,7 @@
             line-height: 0;
             padding-top: 10px;
             text-align: center;
+            border:1px solid green;
 
             > svg {
                 width: 18px;
@@ -157,7 +150,8 @@
 
          @media screen and ( max-height: 400px ){
             h1{
-            font-size: 1.5em;
+            font-size: 1.4em;
+            width:90%;
             }
            img{
               width:160px;
@@ -196,6 +190,12 @@
         font-size: 0.9em;
        }
        }
+
+        @media screen and ( max-height: 400px ){
+            h1{
+            font-size: 1.5em;
+            }
+        }
 
 }
 
