@@ -21,7 +21,11 @@
         color: $grey-color-dark;
     }
 }
-
+.menu-icon{
+        img{
+            display: none;
+        }
+    }
 .site-nav {
     float: right;
     line-height: 56px;
@@ -29,6 +33,7 @@
     .page-link {
         color: $text-color;
         line-height: $base-line-height;
+        padding:0 10px;
     }
 
     @include media-query($on-palm) {
@@ -44,15 +49,18 @@
             display: block;
             float: right;
             width: 36px;
-            height: 26px;
+            height: 33px;
             line-height: 0;
-            padding-top: 10px;
             text-align: center;
-            border:1px solid green;
+            padding-top:6px;
+            img{
+                display: block;
+                width: 36px;
+                height: 36px;
+            }
 
             > svg {
                 width: 18px;
-                height: 15px;
 
                 path {
                     fill: $grey-color-dark;
