@@ -110,6 +110,7 @@
 * Home Page
 */
 .home{
+    position: relative;
     background:  linear-gradient(
       $main-red, 
       $main-red
@@ -117,11 +118,12 @@
         background-size:cover;
         padding-bottom: 0%;
         margin:0;
-        height:93vh;
+        height: 93vh;
+        min-height: 785px;
      h1{
           text-align: center;
           color:white;
-          font-size: 3.5vw;
+          font-size: 40px;
           width: 70%;
           margin: 0 auto;
           display: block;
@@ -132,78 +134,86 @@
     img{
         text-align: center;
         border-radius: 50%;
-        margin: 5% auto 0 auto;
         display: block;
+        margin: 70px auto 0 auto;
         border: 6px solid white;
     }
 
-       @include media-query($on-palm) {
-        img{
-            width:200px;
-            height:200px;
-            margin-top: 15%;
-        }
+    @media screen and  (max-width:1300px){
+        min-height: 550px;
         h1{
-            font-size: 2em;
-            width: 100%;
+            width: 90%;
         }
-       }
-        @media screen and ( max-height: 475px ){
-           img{
-            width:185px;
-            height:185px;
-            margin-top: 5%;
-            }
+        img{
+            margin-top: 60px;
+            width:220px;
+            height:220px;
         }
-
-         @media screen and ( max-height: 400px ){
-            h1{
-            font-size: 1.4em;
-            width:90%;
-            }
-           img{
-              width:160px;
-              height:160px;
-              margin-top: 10%;
-           }
-        }
+    }
 }
    
   
  #blogSum{
-        text-align:center;
         margin-top:5%;
         margin-bottom: 0%;
         //background: #E6E6E6;
         padding: 5% 0;
+        position: relative;
+    h2{
+       /* position: absolute;
+        top:45px;
+        left:50%;*/
+        text-align: center;
+        width: 100%;
+        }
     h1{
+        text-align: center;
         font-size: 3.5em;
         color: $main-red;
         margin-bottom: 4%;
         font-family: "Courier New"
         }
- 
+    img.blog-img{
+       -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+        clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+        width: 130px;
+        max-width: 20%;
+        position: absolute;
+        top:0;
+        left:25%;
+        display: block;
+    }
     a,ul,li{
         text-decoration: none;
         list-style: none;
         font-size: 1.05em;
         margin: 0 0 1% 0;
     }
+    li{
+        position: relative;
+        min-height: 50px;
+        margin-bottom:60px;
+    }
 
-     @include media-query($on-palm) {
-        h1{
-            font-size: 2em;
-        }
-       a,ul,li{
-        font-size: 0.9em;
-       }
-       }
-
-        @media screen and ( max-height: 400px ){
+     /*@media screen and ( max-width: 600px ){
             h1{
             font-size: 1.5em;
             }
-        }
+            h2{
+                width: 100%;
+                text-align: center;
+                position: static;
+                border:1px solid red;
+            }
+            img.blog-img{
+                display: none;
+            }
+            li{
+                min-height: 0;
+                margin-bottom: 5px;
+                border:1px solid green;
+            }
+        }*/
 
 }
 
