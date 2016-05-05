@@ -334,18 +334,31 @@
  */
  .post{
  overflow:auto;
- margin-top: 5%;
+ /*margin-top: 5%;*/
+ position: relative;
   h1{
+    margin-top: 1%;
+    font-size:2.5em;
      @include media-query($on-laptop) {
         font-size: 25px;
  
     }
+  }
+  .main-head{
+    margin-top: 13%;
+  }
+  .back-blog{
+    position: absolute;
+    top:20px;
+    right:15%;
   }
  }
 .post-header {
     margin-bottom: 2%;
     overflow:auto;
     text-align:center;
+    width:70%;
+    margin:0 auto;
     @include media-query($on-laptop) {
         font-size: 16px;
     }
@@ -361,7 +374,7 @@
 
 .post-content {
     overflow:auto;
-    margin: 5% auto 5% auto;
+    margin: 4% auto 5% auto;
     width: 70%;
     @include media-query($on-laptop) {
             width: 100%;
