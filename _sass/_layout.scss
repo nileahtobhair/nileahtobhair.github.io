@@ -156,6 +156,7 @@ h1#about-me{
     }
     .col-md-4,
     .col-md-5,
+    .col-md-7,
     .col-md-8,
     .col-md-6{
         height: 100vh;
@@ -163,7 +164,7 @@ h1#about-me{
         margin:auto auto;
         display: block;
     }
-    @media screen and ( max-width: 600px ){
+    @media screen and ( max-width: 991px ){
         img{
             width:200px;
             height: 200px;
@@ -173,13 +174,14 @@ h1#about-me{
             transform: translateX(-50%);
 
         }
-      .col-md-4,.col-md-5,.col-md-8,.col-md-6{
-        height: 50vh;
+        .col-md-4,.col-md-7,.col-md-5,.col-md-8,.col-md-6{
+            height: 50vh;
         }
         h1{
             font-size: 30px;
             top:0%;
             transform: translateY(0%);
+            border:1px solid white;
         }
         h1 .sub-title{
             font-size: 40px;
