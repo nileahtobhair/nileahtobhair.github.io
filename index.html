@@ -4,30 +4,17 @@ layout: default
 <html>
 <body>
   <div class="home">
-    <h1> Niamh Lawlor 
-    <br>Student | Software Developer</h1>
-    <div class="bottom"><img src="pics/profil2.jpg" width="280" height="280"></div>
+
+    <div class="col-md-4 col-xs-12 col-md-left">
+      <img src="pics/profil2.jpg" width="280" height="280">
+    </div>
+
+    <div class="title col-md-6 col-xs-12 col-md-right">
+        <h1> Niamh Lawlor 
+        <br><span class='sub-title'> Software Developer</span></h1>
+    </div>
+
   </div>
 
-   </div>
-   <div id="blogSum">
-     <h1> Latest Blog Posts </h1>
-      <ul >
-    {% for post in site.posts limit:3%}
-      <li>
-        <h2>
-          <a href="{{ post.url | prepend: site.baseurl }}"> {{ post.title }}</a>
-        </h2>
-      {%  if {{post.icon}} %}
-        <img class='blog-img' src="{{post.icon}}">
-        {% endif %}
-      </li>
-    {% endfor %}
-  </ul>
-  </div>
-
-  <div id="interactiveCV">
-    <img src="pics/interactivecv.png">
-</div>
 </body>
 <html>
