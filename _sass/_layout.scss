@@ -5,7 +5,6 @@
 .site-header {
     border-bottom: 1px solid #EAEAEA;
     min-height: 56px;
-    // Positioning context for the mobile navigation icon
     position: relative;
     color : $text-color;
     margin: 0 auto;
@@ -49,14 +48,16 @@
             display: block;
             float: right;
             width: 36px;
-            height: 33px;
+            height: 36px;
             line-height: 0;
             text-align: center;
-            padding-top:6px;
             img{
                 display: block;
-                width: 36px;
-                height: 36px;
+                padding-top: 6px;
+                margin-top: 2px;
+                margin-left:2px;
+                width: 33px;
+                height: 30px;
             }
 
             > svg {
@@ -105,6 +106,16 @@
             font-size: 12px;
         }
 }
+h1#about-me{
+    text-align: center;
+    margin-bottom: 25px;
+}
+.about-page{
+    border:1px solid red;
+    font-size: 18px;
+    line-height: 35px;
+    text-align: justify;
+}
 /* end of about page */
 
 /*
@@ -120,7 +131,7 @@
     background-attachment: fixed;
     padding-bottom: 0%;
     margin:0;
-    height:95vh;
+    height:100vh;
     min-height: 100%;
     position: relative;
     h1{
@@ -147,7 +158,7 @@
     .col-md-5,
     .col-md-8,
     .col-md-6{
-        height: 95vh;
+        height: 100vh;
         min-height: 280px;
         margin:auto auto;
         display: block;
@@ -214,7 +225,7 @@
         display: block;
     }
     a,ul,li{
-        text-decoration: none;
+        text-decoration: none!important;
         list-style: none;
         font-size: 1.05em;
         margin: 0 0 1% 0;
@@ -224,43 +235,7 @@
         min-height: 50px;
         margin-bottom:60px;
     }
-
-     /*@media screen and ( max-width: 600px ){
-            h1{
-            font-size: 1.5em;
-            }
-            h2{
-                width: 100%;
-                text-align: center;
-                position: static;
-                border:1px solid red;
-            }
-            img.blog-img{
-                display: none;
-            }
-            li{
-                min-height: 0;
-                margin-bottom: 5px;
-                border:1px solid green;
-            }
-        }*/
-
 }
-
-#interactiveCV{
-    background: #DEEFE7;
-    padding: 0;
-    img{
-    width: 90%;
-    margin:5% auto 0 auto;
-    display: block;
-    }
-}
-
-
-/*
- * Comments
- */
 
  /*
  * Contact page
@@ -357,7 +332,7 @@
 }
 
 .post-excerpt{
-    font-size: 1.15em;
+    font-size: 1.25em;
     text-align: justify;
     .post-end-link{
         color: $main-red;
@@ -391,7 +366,17 @@
     position: absolute;
     top:20px;
     right:15%;
+    z-index: -1;
   }
+    @include media-query($on-palm) {
+        .back-blog{
+            top:5px;
+            right:25px;
+            img{
+                height:60px;
+            }
+        }
+    }
  }
 .post-header {
     margin-bottom: 2%;
@@ -416,6 +401,8 @@
     overflow:auto;
     margin: 4% auto 5% auto;
     width: 70%;
+    font-size:16px;
+    text-align: justify;
     @include media-query($on-laptop) {
             width: 100%;
             margin-top: 10%; 
