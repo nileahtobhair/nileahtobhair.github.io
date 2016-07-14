@@ -4,13 +4,6 @@ title: About
 permalink: /about/
 ---
 <html>
-
-<head>
-<script type="text/javascript" src="{{site.baseurl}}/scripts/instaGrid.js"></script>
-<link href="{{site.baseurl}}/scripts/instaGrid.css" rel="stylesheet">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-</head>
-<body>
 		<div id="abouts"><p> About Me</p></div>
 	    <div class="wrapper">
 	    	<div id="aboutContent">
@@ -21,10 +14,7 @@ permalink: /about/
 				<br>
 			</div>
 		<div>
-  
-  	
-	
-</body>
+  </html>
 
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
