@@ -28,8 +28,8 @@
 .site-nav {
     float: right;
     line-height: 56px;
-
     .page-link {
+        font-size: 17px;
         color: $text-color;
         line-height: $base-line-height;
         padding:0 10px;
@@ -82,7 +82,6 @@
             display: block;
             padding: 5px 10px;
             text-align: left;
-
         }
     }
 }
@@ -108,13 +107,16 @@
 }
 h1#about-me{
     text-align: center;
-    margin-bottom: 25px;
+    margin-bottom: 45px;
+    font-size:30px;
 }
 .about-page{
-    border:1px solid red;
     font-size: 18px;
-    line-height: 35px;
+    line-height: 30px;
     text-align: justify;
+    width:90%;
+    margin: 0 auto 95px auto;
+
 }
 /* end of about page */
 
