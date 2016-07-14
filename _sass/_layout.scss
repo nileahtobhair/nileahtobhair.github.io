@@ -366,12 +366,11 @@ h1#about-me{
     position: absolute;
     top:20px;
     right:15%;
-    z-index: -1;
   }
     @include media-query($on-palm) {
         .back-blog{
             top:5px;
-            right:25px;
+            right:82%;
             img{
                 height:60px;
             }
