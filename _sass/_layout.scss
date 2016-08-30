@@ -89,33 +89,18 @@
 /*
 * About Page 
 */
-#abouts{
-    p:first-of-type{
-    text-align:center;
-    font-size: 3em;
-    padding-top:5%;
-    margin-bottom: 5%;
 
-    }
-}
-#aboutContent{
-    margin: 2% auto 5% auto;
-    text-align:center;
-     @include media-query($on-laptop) {
-            font-size: 12px;
-        }
-}
 h1#about-me{
     text-align: center;
     margin-bottom: 45px;
-    font-size:30px;
+    font-size:40px;
 }
 .about-page{
     font-size: 18px;
     line-height: 30px;
     text-align: justify;
-    width:90%;
-    margin: 0 auto 95px auto;
+    width:75%;
+    margin: 60px auto;
 
 }
 /* end of about page */
