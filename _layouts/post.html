@@ -5,7 +5,7 @@ layout: default
 	<div class="wrapper">
   <header class="post-header">
   	<a class='back-blog' href='{{site.baseurl}}/blog'><img src="{{site.baseurl}}/pics/x.svg" height="100"></img></a>
-    <h1 class="post-title main-head">{{ page.title }}</h1>
+    <div class="post-title main-head">{{ page.title }}</div>
     <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
   </header>
 
