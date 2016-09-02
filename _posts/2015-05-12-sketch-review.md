@@ -17,7 +17,7 @@ The beauty of sketch is that it is so intuitive.There is only one window (per sk
 
 ![sketchfeatures]({{site.url}}/pics/sketchfeatures.png)
 
-##Is it worth it ?
+Is it worth it ?
 
 Bohemian offers a free 30 day trial to try the app . After that it costs $100 to buy. They also do a $50 deal for students. There is of course a lot of things that sketch cannot do when compared to packages such as adobe photoshop and illustator. I know a lot of designers that primarily use sketch but felt the need to retain photoshop for certain situations. As a developer any time you spend improving your design skills should be about learning design fundamentals and playing around with different sketches, icons and design layouts, not learning how to use a tool that will let you start designing. Sketch is of course not going to teach you design principles or make you any better at designing anything. But it should make it more fun. 
 
