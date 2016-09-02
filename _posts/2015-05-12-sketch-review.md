@@ -11,7 +11,7 @@ Sketch is a UI design application, perfect for developers thinking of dabbling w
  
 I'm no designer, but often require graphics, icons and other artwork for my personal projects. The obvious place to begin when starting any of this work would of course be photoshop (or any one of the adobe suite products). It makes sense, photoshop does everything. It's so well known outside the industry that the verb to digitally alter an image is to photoshop it. The problem is if you don't need to do everything, you'll still have to learn how to do (almost) everything to get the best out of photoshop. It's extremely heavy, it has to be to implement all the amazing features it has. That means that the learning curve for using it is extremely high and so for someone attempting a small project probably not worth the effort. Enter Sketch.
 
-![sketch]({{site.url}}/pics/sketch.png)
+![sketch]({{site.url}}/pics/Sketch.png)
 
 The beauty of sketch is that it is so intuitive.There is only one window (per sketch) and around 80% of it's functionality is avilable in visible menus. The welcome sketch that greets you (pictured above) is all you need to get started. It's fast and easy to use. While it is built exclusively for Mac, limiting alot of developers, it is really well integrated with the track pad for object control, zooming and general navigation.
 
