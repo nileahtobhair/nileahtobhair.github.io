@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Why write a blog ? "
-date:   2016-09-02 18:41:29
+date:   2016-09-06 18:41:29
 categories: opinion blog
 comments: True
 icon : ""
@@ -15,4 +15,4 @@ Eventually, when I went to university I chose to study Computer Science (unrelat
 
 In retrospect , it's easy to see why I never progressed in any significant way with my writing. Writing , like anything requires time , patience and extreme dedication and I didn't give it that. And that is what I intend to do now. I created this site about a year ago and since then I haven't contributed to it in any kind of meaningful way, beyond small styling and layout changes or the odd blog post. I still find the articles hard to read, an untrue representation of me.
 
-This is all to say that from this point forward I'm committing to write at least one blog post a week be it an article, essay , tutorial or opinion piece. That the reason for writing this blog to publish on the internet for everyone who wants to can see , is a way to keep myself accountable to my commitment to become a better writer. That will hopefully allow me to progress to a stage where I can read something I wrote and feel feel a connection to it or ,at the very least, not cringe at it's existence.
+This is all to say that from this point forward I'm committing to write at least one blog post a month be it an article, essay , tutorial or opinion piece. That the reason for writing this blog to publish on the internet for everyone who wants to can see , is a way to keep myself accountable to my commitment to become a better writer. That will hopefully allow me to progress to a stage where I can read something I wrote and feel feel a connection to it or ,at the very least, not cringe at it's existence.
