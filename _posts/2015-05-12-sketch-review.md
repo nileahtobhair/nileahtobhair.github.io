@@ -7,9 +7,9 @@ comments: True
 icon : ""
 ---
 	
-Sketch is a UI design application, perfect for developers thinking of dabbling with some design work. While there is plenty of excellent reviews of the app already available on the interweb, this article is aimed at developers and those of whom design is not in their daily job description. 
+Sketch is a UI design application, perfect for developers thinking of dabbling with some design work. While there is plenty of excellent reviews of the app already available on the internet, this article is aimed at developers and those of whom design is not in their daily job description. 
  
-I'm no designer, but often require graphics, icons and other artwork for my personal projects. The obvious place to begin when starting any of this work would of course be photoshop (or any one of the adobe suite products). It makes sense, photoshop does everything. It's so well known outside the industry that the verb to digitally alter an image is to photoshop it. The problem is if you don't need to do everything, you'll still have to learn how to do (almost) everything to get the best out of photoshop. It's extremely heavy, it has to be to implement all the amazing features it has. That means that the learning curve for using it is extremely high and so for someone attempting a small project probably not worth the effort. Enter Sketch.
+I'm no designer, but often require graphics, icons and other artwork for my personal projects. The obvious place to begin when starting any of this work would of course be illustratro (or any one of the other adobe suite products). It makes sense, photoshop does everything. It's so well known outside the industry that the verb to digitally alter an image is to photoshop it. The problem is if you don't need to do everything, you'll still have to learn how to do (almost) everything to get the best out of photoshop. It's extremely heavy, it has to be to implement all the amazing features it has. That means that the learning curve for using it is extremely high and so for someone attempting a small project probably not worth the effort. Enter Sketch.
 
 ![sketch]({{site.url}}/pics/Sketch.png)
 
