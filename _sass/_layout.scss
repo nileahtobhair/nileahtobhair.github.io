@@ -444,6 +444,19 @@ a.post-end-link:visited{
             font-size: 18px;
         }
     }
+    img{
+        margin:40px auto 5px auto;
+        max-width:650px;
+        display: block;
+    }
+    .tagline{
+        margin-bottom: 40px;
+        width:100%;
+        display: block;
+        font-size: 14px;
+        text-align: center;
+        font-family: sans-serif;
+    }
 }
 
 /*Blog posts content*/
