@@ -102,9 +102,11 @@ h1#about-me{
     text-align: justify;
     width:70%;
     margin: 80px auto;
-    p{
-        text-align: -webkit-auto;
+    @media screen and ( max-width: 599px ){
+        width:90%;
+        text-align: center;
     }
+   
 }
 /* end of about page */
 
