@@ -448,6 +448,12 @@ a.post-end-link:visited{
         margin:40px auto 5px auto;
         max-width:650px;
         display: block;
+        @include media-query($on-palm) {
+            width:100%;
+        }
+        @include media-query($on-laptop) {
+            max-width:100%;
+        }
     }
     .tagline{
         margin-bottom: 40px;
