@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'skinny';
+  src: url('skinny.eot');
+  src: url('skinny.woff2') format('woff2'),
+       url('skinny.woff') format('woff'),
+       url('skinny.ttf') format('truetype'),
+       url('skinny.svg#skinny') format('svg'),
+       url('skinny.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
