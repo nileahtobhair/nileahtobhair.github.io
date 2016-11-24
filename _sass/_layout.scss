@@ -257,10 +257,13 @@ h1#about-me{
     margin:2% auto;
     display:block;
     padding:0;
+    @include media-query($on-palm) {
+        width:100%;
+    }
     img{
         width:10%;
         margin: 0 10%;
-        min-width:50px;
+        min-width:45px;
     }
 }
 
