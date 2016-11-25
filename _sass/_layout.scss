@@ -344,7 +344,7 @@ a.post-end-link:visited{
         font-style: italic;
     }
     @include media-query($on-laptop) {
-        font-size: 10px;
+       font-size: 15px;
     }
 }
 
