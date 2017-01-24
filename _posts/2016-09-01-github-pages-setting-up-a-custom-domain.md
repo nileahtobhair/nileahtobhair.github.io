@@ -36,7 +36,7 @@ On this DNS management page , scroll down to the records table. In the records t
 
 <h3 class='post-sub-title'>3) Registering a host </h3>
 
-In the same records table, add
+In the same records table, add another entry
 
 My research online told me that the changes could take upwards of a couple of hours to propagate to the respective services. However my changes were implemented quickly and I was able to access my site at niamhlawlor.com almost immediately. I'd allow for a couple of hours in case this is not always the case.
 
