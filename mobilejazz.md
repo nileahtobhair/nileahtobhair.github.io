@@ -22,9 +22,16 @@ menu: false
 		<p>A short list of why I think I would be a suitable fit for MobileJazz.</p>
 		<ul class='niamh-list'>
 			<li><span class='main-list-item'>Hard-worker </span><span>I take great pride in my work and I'm happy to work long hours when nessecary </span> </li>
-			<li><span class='main-list-item'> Willingness to learn </span><span>I enjoy learning and always looking to improve technically and in other aspects of life3</span> </li>
+			<li><span class='main-list-item'> Willingness to learn </span><span>I enjoy learning and always looking to improve technically and in other aspects of life</span> </li>
 			<li><span class='main-list-item'>Humility </span><span>This may seem an odd one to put in a list of what makes me situable for a job but I feel it's important.</span></li>
 			<li><span class='main-list-item'>Technical Aptitude/ Ability</span> <span>I have gone into further detail on this below. </span> </li>
 		</ul>
+	</div>
+	<div class='experience'>
+		<div><span>Voxmarkets </span></div>
+		<div><span>Citi Innovation Lab </span></div>
+		<div><span>Trinity College Dublin </span></div>
+	<div class='application-footer'>
+		For more information about me please see the following links.
 	</div>
 </div>
