@@ -531,3 +531,70 @@ a.post-end-link:visited{
     }
 }
 
+.projects-page{
+    margin-bottom:60px;
+    margin-top:30px;
+    .portfolio-project:after,.portfolio-project:before{
+        position:absolute;
+        opacity:0;
+        transition: all 0.5s;
+        -webkit-transition: all 0.5s;
+    }
+    .portfolio-project:after{
+        content:'\A';
+        width:100%; height:100%;
+        top:0; left:0;
+        background:rgba(0,0,0,0.8);
+    }
+    .portfolio-project:hover:after, .portfolio-project:hover:before {
+        opacity:1;
+    }
+    .portfolio-project:before{
+            content: attr(data-content);
+            width:100%;
+            z-index:1;
+            top:50%;
+            transform: translateY(-50%);
+            padding:4px 10px;
+            text-align:center;
+            font-size:55px;
+            color:#fff;
+            box-sizing:border-box;
+            -moz-box-sizing:border-box;
+            font-family: 'Lobster Two', "Lucida Grande", sans-serif;
+    }
+    .list-of-projects{
+        max-width:80%;
+        margin:0 auto;
+        display: block;
+        list-style: none;
+        overflow: auto;
+        li.portfolio-project {
+            position:relative;
+            border:1px solid #EAEAEA;
+            box-shadow: 0 2px 4px 0 rgba(187,187,187,1);
+            -webkit-box-shadow:0 2px 4px 0 rgba(187,187,187,1);
+            padding:20px 0;
+            border-radius:3px;
+            margin-bottom:65px;
+            margin-right:4%;
+            margin-left:4%;
+            img:hover{  
+            }
+            img{
+                vertical-align:top;
+                width:300px;
+                height:300px;
+                margin:0 auto;
+                display: block;
+            }
+        }
+    }
+}
+.projects-title{
+    text-align: center;
+    font-family: 'Lobster Two', "Lucida Grande", sans-serif;
+    font-size:85px;
+    margin-top:60px;
+    margin-bottom:60px;
+}
