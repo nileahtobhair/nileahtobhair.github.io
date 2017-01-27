@@ -2,7 +2,7 @@
 layout: page
 title: Freedom Chat
 permalink: /projects/freedomchat
-thumbnail: freedomChat.svg
+thumbnail: freedomchat.svg
 ---
 
 Freedom Chat
