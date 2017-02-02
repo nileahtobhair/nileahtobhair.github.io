@@ -8,7 +8,7 @@ thumbnail: freedomchat.svg
 # Freedom Chat
 
 
-<img class='project-main' src='{{site.baseurl}}/assets/freedomChat.svg'/>
+<img class='project-main' src='{{site.baseurl}}/assets/freedomchat.svg'/>
 
 
 Freedom Chat is an application that allows you to chat simply without registration in a set number of pre-determined chat rooms.

@@ -5,6 +5,8 @@ permalink: /projects/deardiary
 thumbnail : deardiary.svg
 ---
 
+# Dear Diary
+
 <img class='project-main' src='{{site.baseurl}}/assets/deardiary.svg'/>
 Dear Diary is a simple travel blog , built using Jekyll . This site began as part of a project into the use of social media and its role in the growth of start-ups that I worked on for a client . The project involved guaging the response and growth of a completely anonymous site using social media in order to explore the importance of personality in social media strategy.
 
