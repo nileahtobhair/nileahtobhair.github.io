@@ -475,7 +475,7 @@ a.post-end-link:visited{
         }
     }
     img.project-screenshots{
-        width:100%;
+        width:99%;
         border:1px solid black;
         max-width:100%;
     }
@@ -578,19 +578,13 @@ a.post-end-link:visited{
         li.portfolio-project {
             position:relative;
             border:1px solid #EAEAEA;
-            box-shadow: 0 2px 4px 0 rgba(187,187,187,1);
-            -webkit-box-shadow:0 2px 4px 0 rgba(187,187,187,1);
-            padding:20px 0;
-            border-radius:3px;
-            margin-bottom:65px;
-            margin-right:4%;
-            margin-left:4%;
+            padding:0;
             img:hover{  
             }
             img{
                 vertical-align:top;
-                width:300px;
-                height:300px;
+                width:auto;
+                height:250px;
                 margin:0 auto;
                 display: block;
             }
@@ -608,4 +602,53 @@ a.post-end-link:visited{
 #freedom-chat{
     text-align: center;
     font-size:40px;
+}
+
+#cv-main{
+    .name{
+        border:10px solid #bc2328;
+        width:460px;
+        padding:10px;
+        margin:0 auto 30px auto;
+        font-size: 50px;
+    }
+    .cv-sub-heading{
+        font-size:45px;
+        border-bottom:3px solid black;
+    }   
+    ul{
+        list-style: none;
+        li{
+            overflow: auto;
+        }
+    }
+    img.heading-image{
+        width:65px;
+        margin-top:0;
+        margin-bottom:0;
+        padding:0;
+    }
+    .section-heading{
+        padding-top:5px;
+    }
+    .lefted{
+            text-align: right;
+    }
+    .position-element{
+        margin-bottom:30px;
+        margin-top:30px;
+        .position{
+            padding:5px 0;
+            font-size: 34px;
+            font-weight:700;
+        }
+        .role{
+            font-size:  20px;
+            letter-spacing: 2px;
+        }
+        .period{
+            padding:10px 0;
+            color:#bc2328;
+        }
+    }
 }

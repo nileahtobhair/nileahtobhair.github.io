@@ -2,8 +2,8 @@
 title: Niamh Lawlor
 email: nileahtobhair@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-   Travel, Read, Write, Teach, Learn, Explore.\br>
-   I U+2764 Swift + Javascript
+  Niamh Lawlor (nileahtobhair) portfolio site.
+  Software Developer , Dublin , Ireland
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://niamhlawlor.com" # the base hostname & protocol for your site
 paginate: 10
