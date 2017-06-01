@@ -289,8 +289,10 @@ h1#about-me{
     @include media-query($on-palm) {
         width:100%;
     }
-    a{
-        display: inline-block;
+    @media screen and ( max-width: 799px ){
+        a{
+            display: inline-block;
+        }
     }
     img{
         width:50px;
