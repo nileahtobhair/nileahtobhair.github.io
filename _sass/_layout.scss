@@ -129,6 +129,7 @@ h1#about-me{
 .about-page.row{
     @media screen and ( max-width: 799px ){
         margin:0px;
+        width:100%;
     }
     .about-blurb{
         margin-top:20px;
@@ -288,18 +289,35 @@ h1#about-me{
     @include media-query($on-palm) {
         width:100%;
     }
+    a{
+        display: inline-block;
+    }
     img{
         width:50px;
         margin: 0 10%;
         min-width:40px;
+        @media screen and ( max-width: 599px ){
+            margin:0 10px;
+            width:40px;
+        }
+         @media screen and ( max-width: 799px ){
+           
+        }
+
     }
     img#insta-link{
         opacity: 0.5;
         width:55px;
+        @media screen and ( max-width: 599px ){
+            width:45px;
+        }
     }
     img#linkedin-link{
         opacity: 0.7;
         width:60px;
+        @media screen and ( max-width: 599px ){
+            width:45px;
+        }
     }
 }
 
