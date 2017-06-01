@@ -105,6 +105,9 @@ h1#about-me{
     margin-bottom: 45px;
     font-size:40px;
     font-family: gotham;
+    @media screen and ( max-width: 799px ){
+        margin-bottom:25px;
+    }
 }
 .about-page{
     font-size: 14px;
@@ -113,12 +116,23 @@ h1#about-me{
     text-align: justify;
     width:100%;
     margin: 80px auto;
+    .about-blurb{
+
+    }
     @media screen and ( max-width: 599px ){
         width:90%;
         margin-top:30px;
         text-align: center;
+       
     }
-   
+}
+.about-page.row{
+    @media screen and ( max-width: 799px ){
+        margin:0px;
+    }
+    .about-blurb{
+        margin-top:20px;
+    }
 }
 .about-profile{
     /*width:350px;
