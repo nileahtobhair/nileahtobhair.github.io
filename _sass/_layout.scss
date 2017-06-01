@@ -121,9 +121,9 @@ h1#about-me{
    
 }
 .about-profile{
-    width:350px;
+    /*width:350px;
     height:350px;
-    border-radius:50%;
+    border-radius:50%;*/
 }
 /* end of about page */
 
@@ -266,7 +266,7 @@ h1#about-me{
 }
 
 .footer-list{
-    width:50%;
+    width:100%;
     text-align:center;
     margin:2% auto;
     display:block;
@@ -275,9 +275,17 @@ h1#about-me{
         width:100%;
     }
     img{
-        width:10%;
+        width:50px;
         margin: 0 10%;
         min-width:40px;
+    }
+    img#insta-link{
+        opacity: 0.5;
+        width:55px;
+    }
+    img#linkedin-link{
+        opacity: 0.7;
+        width:60px;
     }
 }
 
