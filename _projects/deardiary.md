@@ -2,7 +2,7 @@
 layout: page
 title: deardiary
 permalink: /projects/deardiary
-thumbnail : deardiary.svg
+thumbnail : deardiary.png
 ---
 
 # Dear Diary

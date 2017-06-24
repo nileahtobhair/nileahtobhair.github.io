@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+  	<div class='projects-template'>
+    {% include header.html %}
+    
+    <div class="page-content">
+      {{ content }}
+    </div>
+    <div class="comments">
+ 		{% include comments.html %}
+ 	</div>
+   		{% include footer.html %}
+   	<div>
+  </body>
+
+</html>
