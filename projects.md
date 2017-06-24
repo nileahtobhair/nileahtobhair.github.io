@@ -9,7 +9,7 @@ menu: true
 <div class='row projects-page'>
 	<ul class='list-of-projects'>
 	{% for project in site.projects  %}
-	<li class="portfolio-project col-md-4 col-xs-12" data-content="{{project.title}}" onclick="redirect('{{site.baseurl}}{{project.permalink}}')">
+	<li class="portfolio-project" data-content="{{project.title}}" onclick="redirect('{{site.baseurl}}{{project.permalink}}')">
 	<a href="{{site.baseurl}}{{project.permalink}}" class="image-container"><img class="project-thumbnail" id="{{project.title}}" src="{{site.baseurl}}/assets/{{project.thumbnail}}"/></a>
 	 </li>
 	{% endfor %}
