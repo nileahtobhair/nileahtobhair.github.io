@@ -7,7 +7,16 @@ thumbnail: nomisma.png
 
 # Nomisma
 
-<img class='project-main' src='{{site.baseurl}}/assets/nomisma-logo.png'/>
+![alt text](http://niamhlawlor.com/assets/nomisma-logo.png "Nomisma App Logo")
+
+
+| Site Features         |                                                            | 
+| -------------         |:----------------------------------------------------------:| 
+| Technologies      	| Javascript, CSS                                            | 
+| Libraries/Frameworks  | ReactJS                                                    |
+| Open Source           | [Yes](https://github.com/nileahtobhair/nomisma-web)        |
+| Live Demo             | [Here](http://niamhlawlor.com/nomisma-web)                 | 
+
 
 
 Nomisma is a currency convertor application , useful for currency conversion needed in daily life.

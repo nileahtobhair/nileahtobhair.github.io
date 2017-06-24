@@ -10,6 +10,12 @@ thumbnail: freedomchat.svg
 
 <img class='project-main' src='{{site.baseurl}}/assets/freedomchat.svg'/>
 
+| Site Features         |                                                     | 
+| -------------         |:--------------------------------:                   | 
+| Technologies      	| Javscript, NodeJS, CSS                              | 
+| Libraries/Frameworks  | Socket.IO                                           |
+| Open Source           | [Yes](https://github.com/nileahtobhair/FreedomChat) |
+| Live Demo             | [Here](https://quiet-taiga-8647.herokuapp.com/)     |
 
 Freedom Chat is an application that allows you to chat simply without registration in a set number of pre-determined chat rooms.
 
