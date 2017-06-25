@@ -1,0 +1,159 @@
+.fixed-header{
+    position: fixed;
+    width:100%;
+    z-index: 9999999;
+    @media screen and ( max-width: 992px ){
+    	position: inherit;
+    }
+}
+
+#cv-main{
+	.explanation{
+		display: none;
+		@media screen and ( max-width: 992px ){
+    		display: block;
+    		text-align: center;
+    		font-size: 25px;
+    		letter-spacing: 2px;
+    		margin-top:10px;
+    		font-family: skinny;
+   		}
+	}
+    img.project-thumbnail{
+        height:25vh;
+        margin-top:15px;
+        @media screen and ( max-width: 599px ){
+        	width:100%;
+        	height: auto;
+        }
+    }
+    .cv-section{
+        min-height:100vh;
+        padding-top:60px;
+        @media screen and ( max-width: 992px ){
+    		margin-left: 0px;
+    		padding-top:10px;
+   		}
+    }
+    .section-left{
+        padding-left:0;
+        position: fixed;
+    }
+    .menu-container{
+        margin-top:56px;
+        background-color: #000;
+      	color:#fff;
+        height:100vh;
+        position: fixed;
+        @media screen and ( max-width: 992px ){
+        	display: none;
+        }
+         @media screen and ( max-width: 992px ){
+        	.menu-icon {
+	            display: block;
+	            float: right;
+	            width: 36px;
+	            height: 36px;
+	            line-height: 0;
+	            text-align: center;
+	            color:#000;
+	            img{
+	                display: block;
+	                padding-top: 6px;
+	                margin-top: 2px;
+	                margin-left:2px;
+	                width: 33px;
+	                height: 30px;
+	           }
+	      	} }
+        .cv-menu{
+            margin-top:70px;
+            @media screen and ( max-width: 992px ){ 
+            	margin-top:0px;
+            }
+            .trigger {
+            	a,a:visited{
+                padding:5px;
+                font-size: 18px;
+                cursor:pointer;
+                text-align: center;
+                display: block;
+                color:#fff;
+	      		@media screen and ( max-width: 992px ){
+	      			color:#000; 
+	      		  }
+            	}
+        	}
+        }
+    }
+    .about-profile{
+        width:550px;
+        margin:20px auto;
+        max-width: 100%;
+    }
+    .about-blurb{
+        font-size:16px;
+        margin-top:20px;
+    }
+    .name{
+        border:10px solid #bc2328;
+        padding:10px;
+        width:270px;
+        text-align: center;
+        background-color: #000;
+        margin:70px auto 0px auto;
+        font-size: 30px;
+        color:#fff;
+        max-width:100%;
+    }
+    .cv-sub-heading{
+        font-size:45px;
+        border-bottom:3px solid black;
+        @media screen and ( max-width: 992px ){
+	      	font-size:30px; 
+	    }
+    }   
+    ul{
+        list-style: none;
+        li{
+            overflow: auto;
+        }
+    }
+    img.heading-image{
+        width:65px;
+        margin-top:0;
+        margin-bottom:0;
+        padding:0;
+    }
+    .section-heading{
+        padding-top:5px;
+    }
+    .lefted{
+         text-align: right;
+    }
+    .position-element{
+        margin-bottom:30px;
+        margin-top:30px;
+        .position{
+            padding:5px 0;
+            font-size: 34px;
+            font-weight:700;
+        }
+        .role{
+            font-size:  20px;
+            letter-spacing: 2px;
+        }
+        .period{
+            padding:10px 0;
+            color:#bc2328;
+        }
+    }
+    .contact-form{
+    	margin-top:25px;
+    }
+    .email-contact{
+    	margin-top:25px;
+    	font-size: 20px;
+    	text-align: center;
+    }
+}

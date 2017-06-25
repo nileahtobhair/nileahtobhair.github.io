@@ -1,3 +1,6 @@
+
+@import 'cv';
+@import '_cv';
 /**
  * Site header
  */
@@ -664,52 +667,8 @@ a.post-end-link:visited{
     text-align: center;
     font-size:40px;
 }
-
-#cv-main{
-    .name{
-        border:10px solid #bc2328;
-        width:460px;
-        padding:10px;
-        margin:0 auto 30px auto;
-        font-size: 50px;
-    }
-    .cv-sub-heading{
-        font-size:45px;
-        border-bottom:3px solid black;
-    }   
-    ul{
-        list-style: none;
-        li{
-            overflow: auto;
-        }
-    }
-    img.heading-image{
-        width:65px;
-        margin-top:0;
-        margin-bottom:0;
-        padding:0;
-    }
-    .section-heading{
-        padding-top:5px;
-    }
-    .lefted{
-            text-align: right;
-    }
-    .position-element{
-        margin-bottom:30px;
-        margin-top:30px;
-        .position{
-            padding:5px 0;
-            font-size: 34px;
-            font-weight:700;
-        }
-        .role{
-            font-size:  20px;
-            letter-spacing: 2px;
-        }
-        .period{
-            padding:10px 0;
-            color:#bc2328;
-        }
-    }
+.cv-section{
+    min-height:100vh;
 }
+
+
