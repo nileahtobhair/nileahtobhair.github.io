@@ -41,11 +41,54 @@ menu: true
 			<ul class="cv-section">
 				<li class='cv-sub-heading'>Personal Projects</li>
 				<li>
-					<img class='project-thumbnail' src="../assets/deadline.png"/>
-					<span>Deadline is a</span>
+					<div class='col-md-4 col-xs-12'>
+						<img class='project-thumbnail' src="../assets/deadline.png"/>
+					</div>
+					<div class='col-md-8 col-xs-12 project-description-container'>
+						<span class='project-blurb'>
+							Deadline is an application built as a fun tool for a quick injection of motivation.
+						
+							Built using React and hosted using github pages (on my personal site domain), the project was built as tool for the growing hustle culture, becoming popular amongst young people, particularly in the United States.
+							The idea is to direct users to the landing page that contains a single simple instruction, without revealing the premise osf the application.
+						<a target="_blank" href='http://niamhlawlor.com/deadline'>Demo</a>
+						</span>
+					</div>
 				</li>
-				<li><img class='project-thumbnail' src="../assets/freedomchat.svg"/></li>
-				<li><img class='project-thumbnail' src="../assets/nomisma.png"/></li>
+				<li>
+					<div class='col-md-4 col-xs-12'>
+						<img class='project-thumbnail' src="../assets/freedomchat.svg"/>
+					</div>
+					<div class='col-md-8 col-xs-12 project-description-container'>
+						<span class='project-blurb'>
+							Freedom Chat is an application that allows you to chat simply without registration in a set number of pre-determined chat rooms.
+
+							This project initially as an exploration of the framework Socket.IO.
+
+							Later I decided to expand the functionality slightly. At this point I also improved upon the styling.
+
+							The project contains no db or storage facility, meaning no messages between users are ever stored. The server acts solely as a mechanism for redistribution of information.
+							<a target="_blank" href='https://quiet-taiga-8647.herokuapp.com/'>Demo</a>
+						</span>
+					</div>
+				</li>
+				<li>
+					<div class='col-md-4 col-xs-12'>
+						<img class='project-thumbnail' src="../assets/nomisma.png"/>
+					</div>
+					<div class='col-md-8 col-xs-12 project-description-container'>
+						<span class='project-blurb'>
+							Nomisma is a currency convertor application built for easy practical use.
+
+							The application was built as an alternative to information intensive currency conversion applications, often used for financial tasks.
+
+							The application is built using Javascript + React and hosted using Github Pages.
+
+							Conversion rates are fetched on page load from the fixer.IO API.
+							<a target="_blank" href='http://niamhlawlor.com/nomisma-web'>Demo</a>
+						</span>
+					</div>
+				</li>
+				<li class='see-all'><a target="_blank" href='http://niamhlawlor.com/projects'>See All</a></li>
 			</ul>
 		</div>
 		<div id='experience'>

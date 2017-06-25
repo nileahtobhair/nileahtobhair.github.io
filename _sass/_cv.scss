@@ -27,6 +27,37 @@
         	height: auto;
         }
     }
+    .project-description-container{
+    	height:25vh;
+    	position: relative;
+    	margin-top:5px;
+    	@media screen and ( max-width: 992px ){
+    		height:auto;
+    	}
+    }
+    .see-all{
+    	text-align: right;
+    	font-size:18px;
+    	a,a:visited{
+    		color:#bc2328;
+    		padding-right:5px;
+    		pointer:cursor;
+    	}
+    	font-style: italic;
+    }
+    .project-blurb{
+    	position: absolute;
+    	top:50%;
+    	transform: translateY(-50%);
+    	@media screen and ( max-width: 992px ){
+    		height:auto;
+    		position: relative;
+    		transform: none;
+    		margin:10px 0;
+    		text-align: justify;
+    		display: block;
+    	}
+    }
     .cv-section{
         min-height:100vh;
         padding-top:60px;
@@ -107,7 +138,7 @@
         max-width:100%;
     }
     .cv-sub-heading{
-        font-size:45px;
+        font-size:40px;
         border-bottom:3px solid black;
         @media screen and ( max-width: 992px ){
 	      	font-size:30px; 
