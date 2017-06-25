@@ -17,7 +17,7 @@ menu: true
 				<a href='#projects'>Projects</a>
 				<a href='#experience'>Experience / Education</a>
 				<a href='#contact'>Contact</a>
-				<a target="_blank" href='../june-cv.pdf'>PDF</a>
+				<a target="_blank" href='http://niamhlawlor.com/cv-june.pdf'>PDF</a>
 			</div>
 		</nav>
 	</div>
