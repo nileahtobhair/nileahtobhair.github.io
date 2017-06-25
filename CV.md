@@ -8,7 +8,7 @@ menu: true
 	<div class="col-md-3 menu-container col-xs-12">
 		<div class='name'>NIAMH LAWLOR</div>
 		
-		<nav class='cv-menu site-nav'>
+		<nav class='cv-menu'>
 			<a href="#" class="menu-icon">
 	        	<img src="../pics/menu.svg"/>
 	      	</a>
