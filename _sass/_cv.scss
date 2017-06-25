@@ -59,6 +59,9 @@
     		text-align: justify;
     		display: block;
     	}
+    	@media screen and ( min-width: 2100px ){
+    		font-size:25px;
+    	}
     }
     .cv-section{
         min-height:100vh;
@@ -106,15 +109,18 @@
             }
             .trigger {
             	a,a:visited{
-                padding:5px;
-                font-size: 18px;
-                cursor:pointer;
-                text-align: center;
-                display: block;
-                color:#fff;
-	      		@media screen and ( max-width: 992px ){
-	      			color:#000; 
-	      		  }
+	                padding:5px;
+	                font-size: 18px;
+	                cursor:pointer;
+	                text-align: center;
+	                display: block;
+	                color:#fff;
+		      		@media screen and ( max-width: 992px ){
+		      			color:#000; 
+		      		}
+		      		@media screen and ( min-width: 2100px ){
+		      			font-size:28px;
+		      		}
             	}
         	}
         }
@@ -123,10 +129,16 @@
         width:550px;
         margin:20px auto;
         max-width: 100%;
+        @media screen and ( min-width: 2100px ){ 
+            width:auto
+        }
     }
     .about-blurb{
         font-size:16px;
         margin-top:20px;
+        @media screen and ( min-width: 2100px ){ 
+            font-size:27px;
+        }
     }
     .name{
         border:10px solid #bc2328;
@@ -165,8 +177,8 @@
          text-align: right;
     }
     .position-element{
-        margin-bottom:30px;
-        margin-top:30px;
+        margin-bottom:10px;
+        margin-top:10px;
         .position{
             padding:5px 0;
             font-size: 34px;
@@ -180,9 +192,18 @@
             padding:10px 0;
             color:#bc2328;
         }
+        @media screen and ( min-width: 2100px ){
+        	height:20vh;
+        	font-size:24px;
+        }
     }
     .contact-form{
     	margin-top:25px;
+    	@media screen and ( min-width: 2100px ){
+        	width:55%;
+        	margin: 0 auto;
+        	margin-top:40px;
+        }
     }
     .email-contact{
     	margin-top:25px;

@@ -6,7 +6,7 @@ menu: true
 ---
 <div id="cv-main">
 	<div class="col-md-3 menu-container col-xs-12">
-		<div class='name'>NIAMH LAWLOR</div>
+		<div class='name'>CV</div>
 		
 		<nav class='cv-menu'>
 			<a href="#" class="menu-icon">
@@ -15,9 +15,9 @@ menu: true
 	      	<div class='trigger'>
 				<a href='#about'>About</a>
 				<a href='#projects'>Projects</a>
-				<a href='#experience'>Experience</a>
-				<a href='#education'>Education</a>
+				<a href='#experience'>Experience / Education</a>
 				<a href='#contact'>Contact</a>
+				<a target="_blank" href='/june-cv.pdf'>PDF</a>
 			</div>
 		</nav>
 	</div>
@@ -42,7 +42,7 @@ menu: true
 				<li class='cv-sub-heading'>Personal Projects</li>
 				<li>
 					<div class='col-md-4 col-xs-12'>
-						<img class='project-thumbnail' src="../assets/deadline.png"/>
+						<a target="_blank" href='http://niamhlawlor.com/deadline'><img class='project-thumbnail' src="../assets/deadline.png"/></a>
 					</div>
 					<div class='col-md-8 col-xs-12 project-description-container'>
 						<span class='project-blurb'>
@@ -56,7 +56,7 @@ menu: true
 				</li>
 				<li>
 					<div class='col-md-4 col-xs-12'>
-						<img class='project-thumbnail' src="../assets/freedomchat.svg"/>
+						<a target="_blank" href='https://quiet-taiga-8647.herokuapp.com/'><img class='project-thumbnail' src="../assets/freedomchat.svg"/></a>
 					</div>
 					<div class='col-md-8 col-xs-12 project-description-container'>
 						<span class='project-blurb'>
@@ -73,7 +73,7 @@ menu: true
 				</li>
 				<li>
 					<div class='col-md-4 col-xs-12'>
-						<img class='project-thumbnail' src="../assets/nomisma.png"/>
+						<a target="_blank" href='http://niamhlawlor.com/nomisma-web'><img class='project-thumbnail' src="../assets/nomisma.png"/></a>
 					</div>
 					<div class='col-md-8 col-xs-12 project-description-container'>
 						<span class='project-blurb'>
@@ -94,7 +94,7 @@ menu: true
 		<div id='experience'>
 			<ul class="cv-section">
 				<li class="cv-sub-heading">
-					<div class='section-heading col-xs-10'>Experience</div>
+					<div class='section-heading col-xs-10'>Experience & Education</div>
 					<div class='section-image col-xs-2'>
 						<img class=' heading-image' src="/assets/computer.svg"/>
 					</div>
@@ -116,44 +116,26 @@ menu: true
 				</li>
 				<li>
 					<div class="col-xs-12 position-element">
+						<div class='position'>Trinity College Dublin</div>
+						<div class='role'>B.A(Mod) Computer Science</div>
+						<div class='period'>2011-2015</div>
+					</div>
+				</li>
+				<li>
+					<div class="col-md-offset-6 col-md-6 position-element lefted">
 						<div class='position'>Citi Innovation Lab</div>
 						<div class='role'>Software Developer Intern</div>
 						<div class='period'>January 2015 - August 2015</div>
 					</div>
 				</li>
+				
 			</ul>
 		</div>
-		<div id='education'>
-		<ul class="cv-section">
-			<li class="cv-sub-heading">
-				<div class='section-heading col-xs-10'>Education</div>
-				<div class='section-image col-xs-2'>
-					<img class=' heading-image' src="/assets/book.svg"/>
-				</div>
-			</li>
-			<li>
-				<div class="col-xs-12 position-element">
-					<div class='position'>Trinity College Dublin</div>
-					<div class='role'>B.A(Mod) Computer Science</div>
-					<div class='period'>2011-2015</div>
-				</div>
-			</li>
-			<li>
-				<div class="col-md-offset-4 col-md-8 position-element lefted">
-					<div class='position'>Malahide Community School</div>
-					<div class='role'>Leaving Certificate</div>
-					<div class='period'>2005-2011</div>
-				</div>
-			</li>
-		</ul>
-	</div>
+		<div id='education'></div>
 	<div id='contact'>
 		<ul class="cv-section">
 			<li class="cv-sub-heading">
-				<div class='section-heading col-xs-10'>Contact</div>
-				<div class='section-image col-xs-2'>
-					<img class=' heading-image' src="/assets/book.svg"/>
-				</div>
+				<div class='section-heading col-xs-12'>Contact</div>
 			</li>
 			<div class="contact-form">
 			 <!-- Type form contact-->

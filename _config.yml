@@ -3,7 +3,7 @@ title: Niamh Lawlor
 email: nileahtobhair@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Niamh Lawlor (nileahtobhair) portfolio site.
-  Software Developer , Dublin , Ireland
+  Software Developer
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://niamhlawlor.com" # the base hostname & protocol for your site
 paginate: 10
@@ -15,4 +15,5 @@ collections:
 
 # Build settings
 markdown: kramdown
+gems: [jekyll-paginate]
 
