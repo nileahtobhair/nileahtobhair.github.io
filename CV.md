@@ -2,7 +2,7 @@
 layout: cv
 title: CV
 permalink: /CV/
-menu: false
+menu: true
 ---
 <div id="cv-main">
 	<div class="col-md-3 menu-container col-xs-12">
