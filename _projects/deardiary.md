@@ -3,6 +3,7 @@ layout: project
 title: deardiary
 permalink: /projects/deardiary
 thumbnail : deardiary.png
+visible : true
 ---
 
 # Dear Diary

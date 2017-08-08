@@ -3,6 +3,7 @@ layout: page
 title: telefeese
 permalink: /projects/telefeese
 thumbnail : telefeese.png
+visible : false
 ---
 
 # Telefeese
