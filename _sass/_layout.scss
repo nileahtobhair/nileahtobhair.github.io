@@ -1,6 +1,9 @@
 
 @import 'cv';
 @import '_cv';
+@import '_blog-post';
+@import '_projects';
+
 /**
  * Site header
  */
@@ -413,134 +416,6 @@ a.post-end-link:visited{
     }
 }
 
-
-
-
-
-
-
-
-/**
- * Posts
- */
- .post{
- overflow:auto;
- /*margin-top: 5%;*/
- position: relative;
-  h1{
-    margin-top: 1%;
-    text-align: center;
-    font-size:2.5em;
-     @include media-query($on-laptop) {
-        font-size: 25px;
- 
-    }
-  }
-  .main-head{
-    margin-top: 13%;
-    color:rgba(45,190,96,0.7);
-    font-family: gotham,caecilia, times, serif;
-    font-size:35px;
-    font-weight: 300;
-    line-height: 32px;
-    -webkit-font-smoothing:antialiased;
-  }
-  .back-blog{
-    position: absolute;
-    top:20px;
-    right:15%;
-  }
-    @include media-query($on-palm) {
-        .back-blog{
-            top:5px;
-            right:82%;
-            img{
-                height:60px;
-            }
-        }
-    }
- }
-.post-header {
-    margin-bottom: 2%;
-    overflow:auto;
-    text-align:center;
-    width:70%;
-    margin:0 auto;
-    @include media-query($on-laptop) {
-        font-size: 16px;
-    }
-   
-}
-
-.post-title {
-    font-size: 2em;
-    line-height: 1;
-    text-align: center;
-   
-}
-
-.post-content {
-    overflow:auto;
-    margin: 2% auto 5% auto;
-    width: 70%;
-    font-size:15px;
-    line-height:24px;
-    color:#383838;
-    font-family: gotham, helvetica, arial, sans-serif;
-
-    @include media-query($on-laptop) {
-            width: 100%;
-            margin-top: 10%; 
-        }
-
-    h2 {
-        font-size: 32px;
-
-        @include media-query($on-laptop) {
-            font-size: 28px;
-        }
-    }
-
-    h3 {
-        font-size: 26px;
-
-        @include media-query($on-laptop) {
-            font-size: 22px;
-        }
-    }
-
-    h4 {
-        font-size: 20px;
-
-        @include media-query($on-laptop) {
-            font-size: 18px;
-        }
-    }
-    img{
-        margin:40px auto;
-        max-width:650px;
-        display: block;
-        @include media-query($on-palm) {
-            width:100%;
-        }
-        @include media-query($on-laptop) {
-            max-width:100%;
-        }
-    }
-    img.project-screenshots{
-        width:99%;
-        border:1px solid black;
-        max-width:100%;
-    }
-    .tagline{
-        margin-bottom: 40px;
-        width:100%;
-        display: block;
-        font-size: 14px;
-        text-align: center;
-        font-family: sans-serif;
-    }
-}
 
 /*Blog posts content*/
 .domain{

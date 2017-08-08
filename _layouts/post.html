@@ -2,15 +2,17 @@
 layout: default
 ---
 <div class="post">
-	<div class="wrapper">
-  <header class="post-header">
-  	<a class='back-blog' href='{{site.baseurl}}/blog'><img src="{{site.baseurl}}/pics/x.svg" height="100"></img></a>
-    <div class="post-title main-head">{{ page.title }}</div>
-    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-  </header>
+	<div class="wrapper blog-post">
+  		<header class="post-header">
+  			<a class='back' href='{{site.baseurl}}/blog'>
+  				<img src="{{site.baseurl}}/pics/x.svg" height="100"></img>
+  			</a>
+    		<div class="post-title main-head">{{ page.title }}</div>
+    		<p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+  		</header>
 
-  <article class="post-content">
-    {{ content }}
-  </article>
-</div>
+ 		<article class="post-content">
+    		{{ content }}
+  		</article>
+	</div>
 </div>

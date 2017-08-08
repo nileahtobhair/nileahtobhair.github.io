@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: project
 title: deardiary
 permalink: /projects/deardiary
 thumbnail : deardiary.png

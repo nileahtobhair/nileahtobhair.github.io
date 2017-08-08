@@ -4,8 +4,8 @@ email: nileahtobhair@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Niamh Lawlor (nileahtobhair) portfolio site.
   Software Developer
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://niamhlawlor.com" # the base hostname & protocol for your site
+baseurl: "" 
+url: "https://niamhlawlor.com" 
 paginate: 10
 twitter_username: nileahtobhair
 github_username:  nileahtobhair
