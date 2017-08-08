@@ -3,6 +3,7 @@ layout: post
 title:  "Setting up a custom domain for github pages with goDaddy"
 date:   2016-09-02 18:41:29
 categories: tutorial github goDaddy
+visible : false
 comments: True
 icon : ""
 ---

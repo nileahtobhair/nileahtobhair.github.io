@@ -3,6 +3,7 @@ layout: post
 title:  "Sketch App Review"
 date:   2015-09-28 20:23:55
 categories: blog hello_world jekyll github
+visible : true
 comments: True
 icon : ""
 ---

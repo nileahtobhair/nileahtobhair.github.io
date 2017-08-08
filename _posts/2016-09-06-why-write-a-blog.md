@@ -3,6 +3,7 @@ layout: post
 title:  "Why write a blog ? "
 date:   2016-09-06 18:41:29
 categories: opinion blog
+visible : true
 comments: True
 icon : ""
 ---

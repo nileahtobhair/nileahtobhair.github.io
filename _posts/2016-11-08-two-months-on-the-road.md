@@ -3,6 +3,7 @@ layout: post
 title:  "Two Months On The Road"
 date:   2016-11-08 16:31:55
 categories: blog opinion
+visible : true
 comments: True
 icon : ""
 ---
