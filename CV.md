@@ -104,7 +104,7 @@ menu: true
 					<div class="col-xs-12 position-element">
 						<div class='position'>Vox Markets</div>
 						<div class='role'>Software Developer</div>
-						<div class='period'>May 2016 - Present</div>
+						<div class='period'>May 2016 - July 2017</div>
 					</div>
 				</li>
 				<li>
