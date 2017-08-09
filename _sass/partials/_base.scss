@@ -1,6 +1,58 @@
-/**
- * Reset some basic elements
- */
+@charset "utf-8";
+
+
+
+$base-font-family: Helvetica, Arial, sans-serif;
+$base-font-size:   16px;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
+
+$spacing-unit:     30px;
+
+$text-color:       #111;
+$background-color: #fdfdfd; 
+$brand-color:      #111; 
+$main-red:         rgba(220, 0, 0, 0.65);
+
+$grey-color:       #828282; //grey
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+
+
+$content-width:    100%;
+
+$on-palm:          600px;
+$on-laptop:        800px;
+$on-mini:          200px; 
+
+$url :             'https://niamhlawlor.com'; 
+
+
+
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+$font-name: "gotham";
+$font-path: $url + '/assets/fonts/gotham/gotham';
+
+@font-face {
+  font-family: 'gotham';
+  src: url($font-path+'.eot');
+  src: url($font-path+'.woff2') format('woff2'),
+       url($font-path+'.woff') format('woff'),
+       url($font-path+'.ttf') format('truetype'),
+       url($font-path+'.svg#GothamLight') format('svg'),
+       url($font-path+'.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
 body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
@@ -8,11 +60,6 @@ dl, dd, ol, ul, figure {
     padding: 0;
 }
 
-
-
-/**
- * Basic styling
- */
 body {
     font-family: $base-font-family;
     font-size: $base-font-size;
@@ -25,10 +72,6 @@ body {
 }
 
 
-
-/**
- * Set `margin-bottom` to maintain vertical rhythm
- */
 h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
@@ -37,20 +80,12 @@ ul, ol, dl, figure,
 }
 
 
-
-/**
- * Images
- */
 img {
     max-width: 100%;
     vertical-align: middle;
 }
 
 
-
-/**
- * Figures
- */
 figure > img {
     display: block;
 }
@@ -60,10 +95,6 @@ figcaption {
 }
 
 
-
-/**
- * Lists
- */
 ul, ol {
     margin-left: $spacing-unit;
     padding:0;
@@ -77,20 +108,12 @@ li {
 }
 
 
-
-/**
- * Headings
- */
 h1, h2, h3, h4, h5, h6 {
     font-weight: 300;
     padding:0;
 }
 
 
-
-/**
- * Links
- */
 a {
     color: $brand-color;
     text-decoration: none;
@@ -127,9 +150,7 @@ a,a:focus, a:hover{
     text-decoration: none!important;
 }
 
-/**
- * Code formatting
- */
+
 pre,
 code {
     font-size: 15px;
@@ -176,10 +197,6 @@ pre {
 }
 
 
-
-/**
- * Clearfix
- */
 %clearfix {
 
     &:after {
@@ -190,10 +207,6 @@ pre {
 }
 
 
-
-/**
- * Icons
- */
 .icon {
 
     > svg {
