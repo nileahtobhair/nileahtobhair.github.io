@@ -1,5 +1,6 @@
 @import "base";
 
+
 .post{
     overflow:auto;
     position: relative;
@@ -9,14 +10,16 @@
         text-align:center;
         width:70%;
         margin:0 auto;
-        @include media-query($on-laptop) {
+        @include max-width($on-laptop) {
             font-size: 16px;
+            width:100%;
+            margin-top:30px;
         }
         .back{
             position: absolute;
             top:20px;
             right:15%;
-            @include media-query($on-palm) {
+            @include max-width($on-palm) {
                 top:5px;
                 right:82%;
                 img{

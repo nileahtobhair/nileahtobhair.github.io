@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 
-$base-font-family: Helvetica, Arial, sans-serif;
+$base-font-family: gotham,sans-serif,Helvetica, Arial;
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
@@ -65,19 +65,19 @@ $skinny-font-path: $url + '/assets/fonts/skinny/skinny';
   src: url($skinny-font-path+'.woff2') format('woff2'),
        url($skinny-font-path+'.woff') format('woff'),
        url($skinny-font-path+'.ttf') format('truetype'),
-       url($skinny-font-path+'.svg#GothamLight') format('svg'),
+       url($skinny-font-path+'.svg#Skinny-Regular') format('svg'),
        url($skinny-font-path+'.eot?#iefix') format('embedded-opentype');
   font-weight: normal;
   font-style: normal;
 }
 
-@mixin font-loader($name,$path){
+@mixin font-loader($name,$path,$svg_name){
     font-family: $name;
     src:    url($path+'.eot');
     src:    url($path+'.woff2') format('woff2'),
             url($path+'.woff') format('woff'),
             url($path+'.ttf') format('truetype'),
-            url($path+'.svg#GothamLight') format('svg'),
+            url($path+'.svg#'+$svg_name) format('svg'),
             url($path+'.eot?#iefix') format('embedded-opentype');
     font-weight: normal;
     font-style: normal;
