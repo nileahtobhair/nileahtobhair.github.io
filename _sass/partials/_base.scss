@@ -60,7 +60,7 @@ $skinny-font-name: "skinny";
 $skinny-font-path: $url + '/assets/fonts/skinny/skinny';
 
 @font-face {
-  font-family: 'gotham';
+  font-family: 'skinny';
   src: url($skinny-font-path+'.eot');
   src: url($skinny-font-path+'.woff2') format('woff2'),
        url($skinny-font-path+'.woff') format('woff'),
@@ -69,6 +69,18 @@ $skinny-font-path: $url + '/assets/fonts/skinny/skinny';
        url($skinny-font-path+'.eot?#iefix') format('embedded-opentype');
   font-weight: normal;
   font-style: normal;
+}
+
+@mixin font-loader($name,$path){
+    font-family: $name;
+    src:    url($path+'.eot');
+    src:    url($path+'.woff2') format('woff2'),
+            url($path+'.woff') format('woff'),
+            url($path+'.ttf') format('truetype'),
+            url($path+'.svg#GothamLight') format('svg'),
+            url($path+'.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 
