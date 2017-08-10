@@ -14,7 +14,9 @@
             width:100%;
             display: inline-block;
         }
-
+        a{
+            display: inline-block;
+        }
         img{
             width:50px;
             margin: 0 10%;
@@ -30,6 +32,7 @@
             width:55px;
             @include media-query($on-palm) {
                 width:45px;
+                padding-top:10px;
             }
         }
         img#linkedin-link{
@@ -37,6 +40,7 @@
             width:60px;
             @include media-query($on-palm) {
                 width:45px;
+                padding-top:10px;
             }
         }
     }
