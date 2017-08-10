@@ -36,7 +36,7 @@ $url :             'https://niamhlawlor.com';
 
 
 @mixin max-width($ppx) {
-    @media screen and (max-width: $px) {
+    @media screen and (max-width: $ppx) {
         @content;
     }
 }

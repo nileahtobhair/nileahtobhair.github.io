@@ -29,6 +29,8 @@
             cursor:pointer;
             @media screen and ( max-width: 799px ){
                 width:100%;
+                margin:0px;
+                margin-bottom:5px;
             }
             img{
                 vertical-align:top;
@@ -37,6 +39,9 @@
                 width:453px;
                 margin:0 auto;
                 display: block;
+                @include max-width(599px){
+                    height:auto;
+                }
             }
         }
         li:after,li:before{
