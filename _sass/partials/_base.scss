@@ -56,5 +56,20 @@ $font-path: $url + '/assets/fonts/gotham/gotham';
   font-style: normal;
 }
 
+$skinny-font-name: "skinny";
+$skinny-font-path: $url + '/assets/fonts/skinny/skinny';
+
+@font-face {
+  font-family: 'gotham';
+  src: url($skinny-font-path+'.eot');
+  src: url($skinny-font-path+'.woff2') format('woff2'),
+       url($skinny-font-path+'.woff') format('woff'),
+       url($skinny-font-path+'.ttf') format('truetype'),
+       url($skinny-font-path+'.svg#GothamLight') format('svg'),
+       url($skinny-font-path+'.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 
 
