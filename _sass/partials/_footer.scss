@@ -13,10 +13,11 @@
         @include media-query($on-palm) {
             width:100%;
             display: inline-block;
+            a{
+                display: inline-block;
+            }
         }
-        a{
-            display: inline-block;
-        }
+      
         img{
             width:50px;
             margin: 0 10%;
