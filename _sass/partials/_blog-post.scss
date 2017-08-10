@@ -29,6 +29,11 @@
         } 
     }
     .blog-post{
+        @include max-width($on-palm) {
+            padding-left:5px;
+            padding-right:5px;
+            text-align: justify;
+        }
         .post-title{
             margin-top: 13%;
             color:rgba(45,190,96,0.7);

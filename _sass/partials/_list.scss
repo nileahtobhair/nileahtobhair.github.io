@@ -11,7 +11,7 @@
             font-size: 1.25em;
             color: #000;
             @include media-query($on-laptop) {
-                font-size: 9px;
+                font-size: 11px;
             }
         }
 
@@ -20,8 +20,8 @@
             display: block;
             color:rgba(45,190,96,0.7);
             font-size: 2em;
-             @include media-query($on-laptop) {
-                font-size: 20px;
+             @include max-width(599px) {
+                font-size: 23px;
             }
         }
 
