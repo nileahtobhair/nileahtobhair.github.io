@@ -1,0 +1,43 @@
+.site-footer {
+    border-top: 3px solid $grey-color-light;
+    padding: 2% 0;
+    margin: 0;
+    background-color: #fff;
+    ul{
+        width:100%;
+        text-align:center;
+        margin:2% auto;
+        display:block;
+        padding:0;
+
+        @include media-query($on-palm) {
+            width:100%;
+            display: inline-block;
+        }
+
+        img{
+            width:50px;
+            margin: 0 10%;
+            min-width:40px;
+            @include media-query($on-palm) {
+                margin:0 10px;
+                width:40px;
+            }
+
+        }
+        img#insta-link{
+            opacity: 0.5;
+            width:55px;
+            @include media-query($on-palm) {
+                width:45px;
+            }
+        }
+        img#linkedin-link{
+            opacity: 0.7;
+            width:60px;
+            @include media-query($on-palm) {
+                width:45px;
+            }
+        }
+    }
+}

@@ -6,7 +6,7 @@ menu: true
 ---
 
 <h3 class='projects-title'> Projects</h3>
-<div class='row projects-page'>
+<div class='projects-page'>
 	<ul class='list-of-projects'>
 		{% for project in site.projects  %}
 			{% if project.visible %}
@@ -19,7 +19,7 @@ menu: true
 </div>
 
 <script>
-function redirect(link){
-	window.location = link;
-}
+	function redirect(link){
+		window.location = link;
+	}
 </script>

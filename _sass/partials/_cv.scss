@@ -101,7 +101,8 @@
 	                width: 33px;
 	                height: 30px;
 	           }
-	      	} }
+	      	} 
+        }
         .cv-menu{
             margin-top:70px;
             @media screen and ( max-width: 992px ){ 
@@ -127,6 +128,7 @@
     }
     .about-profile{
         width:550px;
+        display: block;
         margin:20px auto;
         max-width: 100%;
         @media screen and ( min-width: 2100px ){ 

@@ -1,0 +1,49 @@
+.post-list { 
+    margin-left: 0;
+    margin:0% auto;
+    list-style: none;   
+
+    li {
+        margin-bottom: 5%;
+        padding-bottom: 20px;
+        border-bottom:2px solid #F7F7F7;
+        .meta {
+            font-size: 1.25em;
+            color: #000;
+            @include media-query($on-laptop) {
+                font-size: 9px;
+            }
+        }
+
+        a.post-link:visited,
+        a.post-link {
+            display: block;
+            color:rgba(45,190,96,0.7);
+            font-size: 2em;
+             @include media-query($on-laptop) {
+                font-size: 20px;
+            }
+        }
+
+        .excerpt{
+            a.post-end-link:visited{
+                color:rgba(45,190,96,0.3);
+                font-style:italic;
+            }
+            a.post-end-link{
+                color:rgba(45,190,96,0.7);
+                font-size: 15px;
+                font-style: italic;
+            }
+            @include media-query($on-laptop) {
+               font-size: 15px;
+            }
+        }
+    }
+
+}
+
+
+
+
+

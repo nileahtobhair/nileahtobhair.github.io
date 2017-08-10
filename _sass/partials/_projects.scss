@@ -1,5 +1,7 @@
 
 .projects-page{
+    margin-bottom:60px;
+    margin-top:30px;
 	h1{
         margin-top: 1%;
         text-align: center;
@@ -9,11 +11,83 @@
             font-size: 25px;
         }
     }
+    
+    ul{
+        max-width:97%;
+        margin:0 auto;
+        display: block;
+        list-style: none;
+        overflow: auto;
+        li {
+            position:relative;
+            border:1px solid #EAEAEA;
+            padding:0;
+            width:453px;
+            float:left;
+            margin: 6px;
+            border:none;
+            cursor:pointer;
+            @media screen and ( max-width: 799px ){
+                width:100%;
+            }
+            img{
+                vertical-align:top;
+                width:auto;
+                height:250px;
+                width:453px;
+                margin:0 auto;
+                display: block;
+            }
+        }
+        li:after,li:before{
+            position:absolute;
+            opacity:0;
+            transition: all 0.5s;
+            -webkit-transition: all 0.5s;
+        }
+        li:before{
+            content: attr(data-content);
+            width:100%;
+            z-index:1;
+            top:50%;
+            transform: translateY(-50%);
+            padding:4px 10px;
+            text-align:center;
+            border-radius: 3px;
+            font-size:55px;
+            color:#fff;
+            box-sizing:border-box;
+            -moz-box-sizing:border-box;
+            font-family: Skinny,skinny, "Lucida Grande", sans-serif;
+        }
+        li:after{
+            content:'\A';
+            width:100%; height:100%;
+            top:0; left:0;
+            background:rgba(0,0,0,0.8);
+        }
+        li:hover:after, li:hover:before {
+            opacity:1;
+        }
+    }
 }
 .project{
   img.project-screenshots{
         width:99%;
         border:1px solid black;
         max-width:100%;
+    }
+}
+
+.projects-template{
+    background-color: #000;
+    .projects-title{
+        text-align: center;
+        font-family: skinny, "Lucida Grande", sans-serif;
+        font-size:85px;
+        letter-spacing:5px;
+        margin-top:60px;
+        margin-bottom:60px;
+        color:#fff;
     }
 }
