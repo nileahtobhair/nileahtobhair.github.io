@@ -1,0 +1,29 @@
+.overview-grid{
+	width:500px;
+	margin: 20px 0;
+
+	tr{
+		padding:10px;
+		height:40px;
+		border:1px solid #c6cbd1;
+		td{
+			border-right:1px solid #c6cbd1;
+			padding:5px;
+		}
+		th{
+			font-weight: 900;
+			padding:5px;
+			font-size:20px;
+		}
+	}
+	
+	tr:nth-child(2n){
+	 	background-color: #f6f8fa;
+	}
+	a{
+		cursor: pointer;
+	}
+	@include max-width(599px){
+		width:100%;
+	}
+}

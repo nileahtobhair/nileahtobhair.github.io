@@ -10,13 +10,29 @@ visible : true
 
 <img class='project-main' src='{{site.baseurl}}/assets/deardiary.svg'/>
 
-| Site Features         |                                                            | 
-| -------------         |:----------------------------------------------------------:| 
-| Technologies      	| CSS                                                        | 
-| Libraries/Frameworks  | Jekylyy                                                    |
-| Open Source           | [Yes](https://github.com/deardiary/deardiary.github.io)    |
-| Live Demo             | [Here](https://deardiary.github.io/)                       | 
 
+<table class='overview-grid'>
+	<tr>
+		<th>Site Features</th>
+		<th></th>
+	</tr>
+	<tr>
+		<td>Technologies</td>
+		<td> CSS , markdown </td>
+	</tr>
+	<tr>
+		<td>Libraries/Frameworks</td>
+		<td>Jekyll </td>
+	</tr>
+	<tr>
+		<td>Open Source</td>
+		<td><a href="https://github.com/deardiary/deardiary.github.io" target="_blank">Yes</a></td>
+	</tr>
+	<tr>
+		<td>Live Demo</td>
+		<td><a href="https://deardiary.github.io/" target="_blank">Here</a></td>
+	</tr>
+</table>
 
 Dear Diary is a simple travel blog , built using Jekyll . This site was created as part of a project into the use of social media and its role in the growth of start-ups . The project involved guaging the response and growth of a completely anonymous site using social media in order to explore the importance of personality in social media strategy.
 

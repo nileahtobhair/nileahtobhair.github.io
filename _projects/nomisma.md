@@ -8,16 +8,31 @@ visible : true
 
 # Nomisma
 
-![alt text](http://niamhlawlor.com/assets/nomisma-logo.png "Nomisma App Logo")
+![alt text](http://niamhlawlor.com/assets/nomisma.png "Nomisma App Logo")
 
 
-| Site Features         |                                                            | 
-| -------------         |:----------------------------------------------------------:| 
-| Technologies      	| Javascript, CSS                                            | 
-| Libraries/Frameworks  | ReactJS                                                    |
-| Open Source           | [Yes](https://github.com/nileahtobhair/nomisma-web)        |
-| Live Demo             | [Here](http://niamhlawlor.com/nomisma-web)                 | 
-
+<table class='overview-grid'>
+	<tr>
+		<th>Site Features</th>
+		<th></th>
+	</tr>
+	<tr>
+		<td>Technologies</td>
+		<td>Javascript, CSS </td>
+	</tr>
+	<tr>
+		<td>Libraries/Frameworks</td>
+		<td>ReactJS </td>
+	</tr>
+	<tr>
+		<td>Open Source</td>
+		<td><a href="https://github.com/nileahtobhair/nomisma-web" target="_blank">Yes</a></td>
+	</tr>
+	<tr>
+		<td>Live Demo</td>
+		<td><a href="http://niamhlawlor.com/nomisma-web" target="_blank">Here</a></td>
+	</tr>
+</table>
 
 
 Nomisma is a currency convertor application , useful for currency conversion needed in daily life.
