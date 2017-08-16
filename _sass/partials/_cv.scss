@@ -48,6 +48,7 @@
     .project-blurb{
     	position: absolute;
     	top:50%;
+        font-family: sans-serif;
     	transform: translateY(-50%);
     	-ms-transform: translateY(-50%);
    		-webkit-transform: translateY(-50%); 
@@ -138,6 +139,7 @@
     .about-blurb{
         font-size:16px;
         margin-top:20px;
+        font-family: sans-serif;
         @media screen and ( min-width: 2100px ){ 
             font-size:27px;
         }
