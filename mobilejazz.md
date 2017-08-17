@@ -11,30 +11,41 @@ menu: false
 		<p> I appreciate your consideration of my application. I elected to put this page together as a way displaying my personality, experience and potential fit with MobileJazz.</p>
 		<h4 class='sub-jazz-heading'>Why MobileJazz ?</h4>
 		<p>I came across MobileJazz after reading an article on HackerNews about your company trip to Thailand a couple of years ago. That brought me to your blog, which I semi-routinely continue to read years later.(I like the variation of topics, I read a lot of tech stuff and sometimes it can get a little heavy.)</p>
-
+		<p>I'm looking for a position in a creative innovative company and I think MobileJazz would be a good fit.</p>
 		<h3 class='sub-jazz-heading'>About Me</h3>
 
 		<p></p>
 		<ul class='jazz-list'>
 			<li>General attitude to learning/improvement</li>
 			<li>Desire to work with the best people and technologies.</li>
-			<li>Remote Friendly Culture : <span>It goes without saying that the idea of working from a villa in Thailand, a house in Cape Town or a ski chalet would appeal to almost anyone. I understand from your blog that you get a lot more applications by highlighting these experiences and it's easy to see why. I'm currently working remotely and I travel alot, I think I work best given this kind of flexibility. </span>
+			<li>Remote Friendly Culture : <span>It goes without saying that the idea of working from a villa in Thailand, a house in Cape Town or a ski chalet would appeal to almost anyone. I'm currently working remotely and I travel alot, I think I work best given this kind of flexibility. </span>
 			</li>
 		</ul>
 		<h4 class='sub-jazz-heading'>Why Consider Me ?</h4>
 		<p>A short list of why I think I would be a suitable fit for MobileJazz.</p>
 		<ul class='niamh-list'>
-			<li><span class='main-list-item'>Hard-worker </span><span>I take great pride in my work and I'm happy to work long hours when nessecary </span> </li>
-			<li><span class='main-list-item'> Willingness to learn </span><span>I enjoy learning and always looking to improve technically and in other aspects of life</span> </li>
-			<li><span class='main-list-item'>Humility </span><span>This may seem an odd one to put in a list of what makes me situable for a job but I feel it's important.</span></li>
+			<li>
+				<img class='bullet' src='../assets/bullet_point.svg' alt="bullet for list">
+				<span class='main-list-item'>Hard-worker </span>
+				<span>I take great pride in my work and I'm happy to work long hours when nessecary. </span> </li>
+			<li>
+				<img class='bullet' src='../assets/bullet_point.svg' alt="bullet for list">
+				<span class='main-list-item'> Willingness to learn </span>
+				<span>I enjoy learning and always looking to improve technically and in other aspects of life</span>
+		 	</li>
+			<li>
+				<img class='bullet' src='../assets/bullet_point.svg' alt="bullet for list">
+				<span class='main-list-item'>Humility </span>
+				<span>This may seem an odd one to put in a list of what makes me situable for a job but I feel it's important.</span>
+			</li>
 			<li><span class='main-list-item'>Technical Aptitude / Ability</span> <span>I have gone into further detail on this below. </span> </li>
 		</ul>
 	</div>
 	<div class='experience'>
-		<div><span>Voxmarkets </span></div>
-		<div><span>Citi Innovation Lab </span></div>
-		<div><span>Trinity College Dublin </span></div>
+		<div><span>Voxmarkets </span><span>March 2016 - August 2017 </span><span>I recently left my role at Vox, a startup based in London. I enjoyed my time there but felt that time was right to move on. I worked as a Software Developer working with technologies such as Javascript, NodeJS and mySQL. </span></div>
+		<div><span>Citi Innovation Lab </span><span>January 2015 - August 2015 </span></div>
+		<div><span>Trinity College Dublin </span><span>September 2011 - September 2015 </span></div>
 	<div class='application-footer'>
-		For more information about me please see the following links.
+		
 	</div>
 </div>

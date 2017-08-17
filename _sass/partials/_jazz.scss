@@ -22,12 +22,17 @@
         width:80%;
         display:block;
         margin:30px auto;
-        font-size:14px;
+        font-size:15px;
+        line-height: 25px;
     }
     .sub-jazz-heading{
         text-align:center;
         color:#0e88be;
         font-size:26px;
         margin:40px 0;
+    }
+    .bullet{
+        max-width:35px;
+        margin-top:5px;
     }
 }

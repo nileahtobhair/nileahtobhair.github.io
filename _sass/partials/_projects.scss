@@ -13,17 +13,18 @@
     }
     
     ul{
-        max-width:97%;
+        max-width:98%;
         margin:0 auto;
         display: block;
         list-style: none;
         overflow: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
         li {
             position:relative;
             border:1px solid #EAEAEA;
             padding:0;
-            width:453px;
-            float:left;
             margin: 6px;
             border:none;
             cursor:pointer;
