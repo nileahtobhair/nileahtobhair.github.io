@@ -18,6 +18,10 @@
         text-align:center;
         padding:90px 0;
     }
+    .external-links{
+        width:50px;
+        margin-right:20px;
+    }
     .application-layout-content{
         width:80%;
         display:block;
@@ -29,10 +33,56 @@
         text-align:center;
         color:#0e88be;
         font-size:26px;
-        margin:40px 0;
+        margin:40px 0 0 0;
     }
+    .tagline{
+        margin-bottom:40px;
+        text-align: center;
+        display: block;
+        color:#b3b3b3;
+        letter-spacing: 1px;
+    }
+     .tagline-inverted{
+        color:#fff;
+        margin-bottom:40px;
+        text-align: center;
+        display: block;
+        letter-spacing: 1px;
+     }
     .bullet{
         max-width:35px;
         margin-top:5px;
+    }
+    .experience{
+       overflow: auto;
+       background-color: #d9d9d9;
+       padding:10px;
+       width:100%;
+       .experience-content{
+            width:80%;
+            margin:0 auto;
+       }
+       .entry{
+        margin-bottom:30px;
+        
+           .date{
+                color:#0e88be;
+                margin-left:40px;
+                margin-top:-5px;
+           }
+           .blurb{
+                margin-left:40px;
+                margin-top:10px;
+           }
+           .title{
+            font-size:18px;
+           }
+        }
+        .entry.right{
+            text-align:right;
+            .blurb,.date{
+                padding-right:35px ;
+            }
+        }
     }
 }
