@@ -17,13 +17,20 @@
         margin-top:0px;
         text-align:center;
         padding:90px 0;
+        @include max-width(599px){
+            font-size:16px;
+        }
     }
     .external-links{
         width:50px;
-        margin-right:20px;
+        margin-left:20px;
     }
     .application-layout-content{
         width:80%;
+        @include max-width(599px){
+            width:100%;
+        }
+        padding:10px;
         display:block;
         margin:30px auto;
         font-size:15px;
@@ -61,6 +68,9 @@
        .experience-content{
             width:80%;
             margin:0 auto;
+            @include max-width(599px){
+                width:100%;
+            }
        }
        .entry{
         margin-bottom:30px;

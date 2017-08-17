@@ -30,8 +30,8 @@ menu: false
 		 	</li>
 			<li>
 				<img class='bullet' src='../assets/bullet_point.svg' alt="bullet for list">
-				<span class='main-list-item'>Humility </span>
-				<span>This may seem an odd one to put in a list of what makes me situable for a job but I feel it's important.</span>
+				<span class='main-list-item'>Philosophy / Culture </span>
+				<span>My own personal outline   </span>
 			</li>
 			<li>
 				<img class='bullet' src='../assets/bullet_point.svg' alt="bullet for list">
@@ -86,8 +86,8 @@ menu: false
 		<p class=''>My dynamic C.V is available  <a href='{{site.baseUrl}}/CV'>on this site.</a> (A lot of the content in this has been produced above).</p>
 		<p class=''>I also have a more traditional PDF CV <a href='{{site.baseUrl}}/cv-august.pdf'>here</a></p> 
 		<p><a target="_blank" href='{{site.baseUrl}}/projects'>Information on some of my personal projects</a></p>
-		<a target="_blank" href='https://twitter.com/nileahtobhair'><img class='external-links' src='/pics/twitter2.svg' alt='link to twitter acc'/></a>
-		<a target="_blank" href='https://twitter.com/nileahtobhair'><img class='external-links' src='/pics/github.svg' alt='link to github acc'/></a>
+		<p> Because you can never have too many links ....<a target="_blank" href='https://twitter.com/nileahtobhair'><img class='external-links' src='/pics/twitter2.svg' alt='link to twitter acc'/></a>
+		<a target="_blank" href='https://twitter.com/nileahtobhair'><img class='external-links' src='/pics/github.svg' alt='link to github acc'/></a></p>
 	</div>
 
 	<!--<h3 class='sub-jazz-heading'>Why MobileJazz ?</h3>
