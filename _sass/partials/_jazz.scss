@@ -13,6 +13,14 @@
     .niamh-list{
         li{
             margin-top:5px;
+            @include max-width(599px){
+                span{
+                    display: block;
+                }
+                span.main-list-item{
+                    display: inline;
+                }
+            }
         }
     }
     .job-header{
