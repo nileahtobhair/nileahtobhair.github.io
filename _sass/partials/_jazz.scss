@@ -95,14 +95,20 @@
             @include max-width(599px){
                 width:100%;
             }
+            .job-title{
+                font-size:16px;
+                margin-left:40px;
+                color:#0e88be;
+                margin-top:-5px;
+            }
        }
        .entry{
         margin-bottom:30px;
         
            .date{
-                color:#0e88be;
+                color:#fff;
                 margin-left:40px;
-                margin-top:-5px;
+                margin-top:10px;
            }
            .blurb{
                 margin-left:40px;
@@ -114,7 +120,7 @@
         }
         .entry.right{
             text-align:right;
-            .blurb,.date{
+            .blurb,.date,.job-title{
                 padding-right:35px ;
             }
         }

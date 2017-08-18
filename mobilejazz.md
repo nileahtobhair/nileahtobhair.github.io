@@ -7,7 +7,7 @@ menu: false
 <div class="mobilejazz-application">
 	<h4 class='job-header'>Front-End Developer Job Application for Mobile Jazz </h4>
 	<div class='application-layout-content'>
-		<p>Hi  name is Niamh and I would like to apply for the position of Front-End developer at MobileJazz.</p>
+		<p>Hi my name is Niamh and I would like to apply for the position of Front-End developer at MobileJazz.</p>
 		<p> I appreciate your consideration of my application. I elected to put this page together as a way displaying my personality, experience and potential fit with MobileJazz.</p>
 		<h4 class='sub-jazz-heading'>Why MobileJazz ?</h4><span class='tagline'>Why I'm interested in MobileJazz</span>
 		<p>I came across MobileJazz after reading an article on HackerNews about your company trip to Thailand a couple of years ago. That brought me to your blog, which I semi-routinely continue to read years later.(I like the variation of topics, I read a lot of tech stuff and sometimes it can get a little heavy.)</p>
@@ -52,8 +52,8 @@ menu: false
 					<img class='bullet' src='../assets/bullet_point.svg' alt="bullet for list">
 					<span class="title"> VoxMarkets</span> 
 				</div>
+				<div class='job-title'>Software Developer</div>
 				<div class='date'>March 2016 - August 2017 </div>
-				<div class='blurb'>Software Developer</div>
 				<div class='blurb'>I recently left my role at Vox, a startup based in London</div>
 				<div class='blurb'> I worked with a range of technologies including Javascript, NodeJS and mySQL</div>
 			</div>
@@ -63,8 +63,8 @@ menu: false
 					<img class='bullet' src='../assets/bullet_point.svg' alt="bullet for list">
 					
 				</div>
+				<div class='job-title'>Software Development Intern</div>
 				<div class='date'>January 2015 - August 2015</div>
-				<div class='blurb'>Software Development Intern</div>
 				<div class='blurb'>Worked on a number of prototype applications as well as an in production banking application </div>
 			</div>
 			<div class='entry'>
@@ -72,8 +72,8 @@ menu: false
 					<img class='bullet' src='../assets/bullet_point.svg' alt="bullet for list">
 					<span class="title"> Trinity College Dublin</span> 
 				</div>
+				<div class='job-title'>B.A(Mod) Computer Science</div>
 				<div class='date'>September 2011 - September 2015</div>
-				<div class='blurb'>B.A(Mod) Computer Science</div>
 			</div>
 		</div>
 	</div>
