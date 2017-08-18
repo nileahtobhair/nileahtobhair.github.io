@@ -93,5 +93,5 @@ menu: false
 		<a target="_blank" href='https://twitter.com/nileahtobhair'><img class='external-links' src='/pics/github.svg' alt='link to github acc'/></a></p>
 	</div>
 
-	<h3 class='sub-jazz-heading'>Thank you for taking the time to read my application.</h3>
+	<h3 class='sub-jazz-heading end'>Thank you for taking the time to read my application.</h3>
 	<p></p>
