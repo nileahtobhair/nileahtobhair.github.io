@@ -12,26 +12,29 @@ menu: false
 		<h4 class='sub-jazz-heading'>Why MobileJazz ?</h4><span class='tagline'>Why I'm interested in MobileJazz</span>
 		<p>I came across MobileJazz after reading an article on HackerNews about your company trip to Thailand a couple of years ago. That brought me to your blog, which I semi-routinely continue to read years later.(I like the variation of topics, I read a lot of tech stuff and sometimes it can get a little heavy.)</p>
 		<p>I'm looking for a position in a creative innovative company and I think MobileJazz would be a good fit.</p>
-		<h3 class='sub-jazz-heading'>About Me</h3><span class='tagline'>A little bit about me </span>
+		<img class='profile' src='/profile-bright.jpg' alt='profile image'/>
+		<h3 class='sub-jazz-heading under-image'>About Me</h3><span class='tagline'>A little bit about me </span>
 
 		<p>My name is Niamh. I'm 24 and am currently in London. I'm originally from Dublin but have spent the last 12 months living as a digital nomad. I graduated from Trinity College Dublin in late 2015 with a degree in Computer Science and since then have been working remotely for VoxMarkets, a fintech startup based in London. </p>
+
+		<p>Outside of tech , I like to read, travel and watch alot of sports. I also run (badly) and love to ski. </p>
 
 		<h4 class='sub-jazz-heading'>Why Consider Me ?</h4>
 		<span class='tagline'>A short list of why I think I would be a suitable fit for MobileJazz.</span>
 		<ul class='niamh-list'>
 			<li>
 				<img class='bullet' src='../assets/bullet_point.svg' alt="bullet for list">
-				<span class='main-list-item'>Work Ethic </span>
-				<span>I value a good work life balance but I also believe strongly </span> </li>
+				<span class='main-list-item'>Work Ethic</span>
+				<span>I value a good work life balance but I also believe strongly in the idea that hard work is the best way to improve your situation in life. I am willing to work hard and put in long hours when necessary.  </span> </li>
 			<li>
 				<img class='bullet' src='../assets/bullet_point.svg' alt="bullet for list">
 				<span class='main-list-item'> Willingness to learn </span>
-				<span>I enjoy learning and always looking to improve technically and in other aspects of life</span>
+				<span>I enjoy learning and always looking to improve technically and in other aspects of life. I think this is an important attribute in a developer. </span>
 		 	</li>
 			<li>
 				<img class='bullet' src='../assets/bullet_point.svg' alt="bullet for list">
 				<span class='main-list-item'>Philosophy / Culture </span>
-				<span>My own personal outline   </span>
+				<span>My personal philosophy and general outlook on life aligns alot with that of MobileJazz. I have been working remotely for the past 18 months. Working somewhere with a good team spirit where everyone enjoys working is important to me.</span>
 			</li>
 			<li>
 				<img class='bullet' src='../assets/bullet_point.svg' alt="bullet for list">
@@ -90,13 +93,5 @@ menu: false
 		<a target="_blank" href='https://twitter.com/nileahtobhair'><img class='external-links' src='/pics/github.svg' alt='link to github acc'/></a></p>
 	</div>
 
-	<!--<h3 class='sub-jazz-heading'>Why MobileJazz ?</h3>
-		<ul class='jazz-list'>
-			<li><img class='bullet' src='../assets/bullet_point.svg' alt="bullet for list">
-				General attitude to learning/improvement</li>
-			<li><img class='bullet' src='../assets/bullet_point.svg' alt="bullet for list">
-				Desire to work with the best people and technologies.</li>
-			<li><img class='bullet' src='../assets/bullet_point.svg' alt="bullet for list">
-				<span>Remote Friendly Culture : <span>It goes without saying that the idea of working from a villa in Thailand, a house in Cape Town or a ski chalet would appeal to almost anyone. I'm currently working remotely and I travel alot, I think I work best given this kind of flexibility. </span>
-			</li>
-		</ul>-->
+	<h3 class='sub-jazz-heading'>Thank you for taking the time to read my application.</h3>
+	<p></p>

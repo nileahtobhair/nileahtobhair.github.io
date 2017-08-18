@@ -8,6 +8,12 @@
     ul{
         list-style: none;
         margin-left:5px;
+
+    }
+    .niamh-list{
+        li{
+            margin-top:5px;
+        }
     }
     .job-header{
         font-size:30px;
@@ -41,11 +47,24 @@
         text-align:center;
         color:#0e88be;
         font-size:26px;
-        margin:60px 0 0 0;
+        margin:80px 0 0 0;
+        @include max-width(599px){
+            margin-top:40px;
+        }
+    }   
+    .sub-jazz-heading.under-image{
+        margin-top:10px;
     }
     .main-list-item{
         font-weight:900;
         font-size:18px;
+    }
+    .profile{
+        width:800px;
+        max-width:100%;
+        margin: 0 auto;
+        margin-top:60px;
+        display: block;
     }
     .tagline{
         margin-bottom:40px;
