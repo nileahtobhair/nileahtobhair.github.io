@@ -15,7 +15,7 @@
             margin-top:5px;
             @include max-width(599px){
                 span{
-                    display: block;
+                    display: block; 
                 }
                 span.main-list-item{
                     display: inline;
