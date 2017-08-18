@@ -80,7 +80,7 @@ menu: false
 	<div class='application-layout-content'>
 		<h4 id='aptitude' class='sub-jazz-heading'>Technical Aptitude</h4>
 		<span class='tagline'>Some more of the technical stuff</span>
-		<p>I believe I fulfil the majority of the technical requirements outlined in your job spec. I am happy to work hard to bridge any gap between my skillset and what is required.</p>
+		<p>I believe I fulfil the technical requirements outlined in your job spec. I am happy to work hard to bridge any gap between my skillset and what is required with the relevant stack.</p>
 		<p>Some of the technologies I have worked with in the past include</p>
 		<p>React -- Javascript -- NodeJS -- MySql </p>
 
