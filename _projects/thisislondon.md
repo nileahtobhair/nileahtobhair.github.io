@@ -12,6 +12,7 @@ visible : true
 
 ThisIs London offers a curated guide to london. A way to discover and explore events, parks and other attractions.
 
+<p class='ongoing'>This project is still in development.</p>
 Problem : I travel often and when I arrive in a city I find good coffeeshops, events and things to do are cumbersome to find. Apps like tripadvisor and timeout are great if you want information on a specific place or are looking for a general outline of what the city has to offer but are often heavily saturated with content. Most of the time I find myself scouring curated lists on the small sites of local or travel bloggers. I wanted to create something that was curated but still dynamic and interactive. 
 
 This application is available to view <a class='demolink' target="_blank" href='https://thisislondon.org'>here</a>.

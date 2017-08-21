@@ -50,4 +50,4 @@ Screenshots of the application are available below.
 <img class='project-screenshots' src='{{site.baseurl}}/assets/nomisma-currency-menu.png'/>
 <img class='project-screenshots' src='{{site.baseurl}}/assets/nomisma-functionality-shot.png'/>
 
-Nomisma is an ongoing project, add to list of known problems here <a target="_blank" href="https://github.com/nileahtobhair/nomisma-web/issues"></a>
+Add to list of known problems here <a target="_blank" href="https://github.com/nileahtobhair/nomisma-web/issues"></a>

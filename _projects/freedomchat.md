@@ -37,9 +37,11 @@ visible : true
 
 Freedom Chat is an application that allows you to chat simply without registration in a set number of pre-determined chat rooms.
 
-This project began as a simple exploration of the framework Socket.IO . I read about it's use in an application somewhere (I think maybe TechCrunch) and thought it would be interesting thing to check-out . (Sidenote - they have a simple site with documentation and example use-cases that is really well produced and user-friendly - check them out here link <a target="_blank" href="http://socket.io/	">here</a>) The original functionality of the project consisted of a simple single chat room application with basic styling and layout.
+This project initially as an exploration of the framework Socket.IO.
 
-I decided to revisit the project after discovering the UI design application figma ( an online version of the application Sketch). In order to explore figma's features, I set out to design the UI of an application and thought it a good idea to use a somewhat already exsisting application. At this point I decided to slightly expand the functionality of the project and also apply some good engineering practices to the codebase. 
+Later I decided to expand the functionality slightly. At this point I also improved upon the styling.
+
+The project contains no db or storage facility, meaning no messages between users are ever stored. The server acts solely as a mechanism for redistribution of information.
 
 I have included some screenshots of the current application below.
 
