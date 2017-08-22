@@ -2,10 +2,12 @@
 layout: post
 title:  "Why write a blog ? "
 date:   2016-09-06 18:41:29
-categories: opinion blog
 visible : true
+category: opinion
+keywords : blog opinion writing career
 comments: True
 icon : ""
+permalink: /blog/writing
 ---
 
 I wrote a short introductory post when I started this site about my motivation for setting up the blog. I said that I wanted to learn more and have an impetus to study a particular topic in more depth, which is all true. I didn't  really specify my reasons for writing a blog specifically rather than just having a personal site or public Github account, regular contributions to either of which would surely fulfil my requirements to learn more about something development related through project work.

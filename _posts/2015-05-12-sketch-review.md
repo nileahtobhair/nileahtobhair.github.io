@@ -2,10 +2,12 @@
 layout: post
 title:  "Sketch App Review"
 date:   2015-09-28 20:23:55
-categories: blog hello_world jekyll github
+category: review
+keywords : blog review sketch tech design software
 visible : true
 comments: True
 icon : ""
+permalink: /blog/sketch
 ---
 	
 Sketch is a UI design application, perfect for developers thinking of dabbling with some design work. While there is plenty of excellent reviews of the app already available on the internet, this article is aimed at developers and those of whom design is not in their daily job description. 

@@ -1,11 +1,13 @@
 ---
 layout: post
 title:  "Two Months On The Road"
-date:   2016-11-08 16:31:55
-categories: blog opinion
+date:   2016-11-08
+category: nomad
+keywords : blog digitalnomad nomad travel
 visible : true
 comments: True
 icon : ""
+permalink: /blog/digitalnomad
 ---
 
 Although I dislike the term digital nomad it is the single term that describes what I am now doing with my life in the most accurate way.

@@ -1,10 +1,13 @@
 ---
 layout: post
 title:  "Why Computer Science"
-date:   2017-01-24 16:14:17
-categories: opinion blog study
+date:   2017-01-24
+category: opinion
+keywords : blog opinion computer science college education
+visible : true
 comments: True
 icon : ""
+permalink: /blog/csopinion
 ---
 
 I graduated from Trinity College Dublin in December 2015, after four years, with a degree in Computer Science. This post outlines the reasons I chose to study Computer Science and my reflections having completed university.

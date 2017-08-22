@@ -1,0 +1,48 @@
+{% assign wordcount = include.content | number_of_words %}
+<script type="application/ld+json">
+    {
+       "@context":"http://schema.org",
+       "@type":"BlogPosting",
+       "headline":"{{ include.title }}",
+       "genre":"{{ include.genre }}",
+       "keywords":"{{ include.keywords }}",
+       "wordCount":"{{ wordcount }}",
+       "url":"https://niamhlawlor.com{{ include.link }}",
+       "datePublished":"{{ include.date | | date: '%Y-%m-%d' }}",
+       "author":{
+          "@type":"Person",
+          "name":"Niamh Lawlor",
+          "sameAs":[
+            "https://twitter.com/nileahtobhair",
+            "https://github.com/nileahtobhair",
+            "nileahtobhair"
+          ]
+       },
+       "publisher":{
+          "@type":"Person",
+          "name":"Niamh Lawlor",
+          "sameAs":[
+            "https://twitter.com/nileahtobhair",
+            "https://github.com/nileahtobhair",
+            "nileahtobhair"
+          ],
+          "logo": {
+          "@type": "ImageObject",
+          "contentUrl": "https://niamhlawlor.com/profile-bright.jpg",
+            "url": "https://niamhlawlor.com"
+        }
+       },
+       "image":{
+          "@type":"ImageObject",
+          "contentUrl":"https://niamhlawlor.com/profile-bright.jpg",
+          "url":"https://niamhlawlor.com",
+          "height":"450",
+          "width":"1000"
+       },
+       "mainEntityOfPage":{
+          "@type":"WebPage",
+          "@id":"https://niamhlawlor.com{{ include.link }}"
+       },
+       "articleBody":"{{ include.content | strip_html | xml_escape | normalize_whitepace | strip_newlines | strip }}"
+    }
+    </script>

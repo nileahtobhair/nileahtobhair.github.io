@@ -1,12 +1,14 @@
 ---
 layout: post
 title:  "Review : Skull Candy Grind Wireless Headphone"
-date:   2017-07-27 18:14:35
-categories: tech review
+date:   2017-07-27
+category: tech
+keywords: blog tech review headphones
 comments: True
 visible : true
 icon : ""
 cover : ""
+permalink: /blog/grindheadphonereview
 ---
 
 I would like to preface this by saying that I'm not an headphone expert. I bought a pair and wanted to review them. Here goes :

@@ -13,6 +13,7 @@ layout: default
 
  		<article class="post-content">
     		{{ content }}
-  		</article>
+  	</article>
+    {%  include structured_data.html title=page.title genre=page.category keywords=page.keywords content=page.content link=page.permalink date=page.date %}
 	</div>
 </div>

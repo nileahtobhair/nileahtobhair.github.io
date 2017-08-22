@@ -1,12 +1,14 @@
 ---
 layout: post
 title:  "Minimise Anxiety While Flying"
-date:   2017-06-23 19:37:55
-categories: travel
+date:   2017-06-23
+category: travel
+keywords : flying travel anxiety
 comments: True
 visible : true
 icon : ""
 cover : ""
+permalink: /blog/minimiseflyinganxiety
 ---
 
 I started to develop an aversion to flying when I was 18 , after a particularly rough flight to Portugal . I never had any issues with flying in childhood. It's not a mental insecurity . I know that the chance of being involved in an accident is minute, that I'm more likely to die a thousand other ways than in an airplane crash. It's not a logical phobia.

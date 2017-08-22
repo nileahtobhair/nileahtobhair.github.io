@@ -1,11 +1,13 @@
 ---
 layout: post
 title:  "How To Pack For Long Term Travel"
-date:   2017-08-07 16:31:55
-categories: blog opinion travel
+date:   2017-08-07
+category: travel
+keywords : blog opinion travel
 visible : true
 comments: True
 icon : ""
+permalink: /blog/packingfortravel
 ---
 
 I'm currently doing a eurotrip and travelling with just a day bag. I've been travelling for about a year mostly carrying a small carry on size suitcase . Moving to a day bag only has given me more freedom of movement which is especially convienent while I do short stay travel. My general philosophy is to pack for seven days and buy and wash anything as needed . Here are some of my tips for packing light : 
