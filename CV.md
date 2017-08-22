@@ -28,7 +28,7 @@ menu: true
 				<li class='cv-sub-heading'>
 					<div class='section-heading'>About</div>
 				</li>
-				<li><img class='about-profile' src='../pics/boat.png'/></li>
+				<li><img class='about-profile' src='../profile-bright.jpg'/></li>
 				<li class='about-blurb'>
 					<p>Hi I'm Niamh. I'm a Software Developer from Dublin. I currently live in London.</p>
 					<p>I graduated from Trinity College Dublin in 2015 with a degree in Computer Science. I have experience as a full stack web developer working with technologies such as NodeJS , React, Javascript , PHP, Wordpress and MySql among others. I enjoy learning new things and work on a number of side projects relating to my interests in my spare time.</p>
