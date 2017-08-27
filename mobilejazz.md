@@ -86,8 +86,8 @@ menu: false
 
 		<h4 class='sub-jazz-heading'>Links</h4>
 		<span class='tagline'>Some more reading</span>
-		<p class=''>My dynamic C.V is available  <a href='{{site.baseUrl}}/CV'>on this site.</a> (A lot of the content in this has been produced above).</p>
-		<p class=''>I also have a more traditional PDF CV <a href='{{site.baseUrl}}/CV-august.pdf'>here</a></p> 
+		<p class=''>My dynamic C.V is available  <a target="_blank" href='{{site.baseUrl}}/CV'>on this site.</a> (A lot of the content in this has been produced above).</p>
+		<p class=''>I also have a more traditional PDF CV <a target="_blank" href='{{site.baseUrl}}/CV-august.pdf'>here</a></p> 
 		<p><a target="_blank" href='{{site.baseUrl}}/projects'>Information on some of my personal projects</a></p>
 		<p> Because you can never have too many links ....<a target="_blank" href='https://twitter.com/nileahtobhair'><img class='external-links' src='/pics/twitter2.svg' alt='link to twitter acc'/></a>
 		<a target="_blank" href='https://twitter.com/nileahtobhair'><img class='external-links' src='/pics/github.svg' alt='link to github acc'/></a></p>
