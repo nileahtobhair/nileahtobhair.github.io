@@ -1,0 +1,139 @@
+.etsy{
+
+    font-family: gotham,sans-serif;
+    p{
+        text-align:center;
+        
+    }
+    ul{
+        list-style: none;
+        margin-left:5px;
+
+    }
+    .niamh-list{
+        li{
+            margin-top:5px;
+            @include max-width(599px){
+                span{
+                    display: block; 
+                }
+                span.main-list-item{
+                    display: inline;
+                }
+            }
+        }
+    }
+    .job-header{
+        font-size:30px;
+        width:100%;
+        background-color:$etsy-orange;
+        color:#fff;
+        height:200px;
+        margin-top:0px;
+        text-align:center;
+        padding:90px 0;
+        @include max-width(599px){
+            font-size:16px;
+        }
+    }
+    .external-links{
+        width:50px;
+        margin-left:20px;
+    }
+    .application-layout-content{
+        width:80%;
+        @include max-width(599px){
+            width:100%;
+        }
+        padding:10px;
+        display:block;
+        margin:30px auto;
+        font-size:15px;
+        line-height: 25px;
+    }
+    .sub-jazz-heading{
+        text-align:center;
+        color:$etsy-orange;
+        font-size:26px;
+        margin:80px 0 0 0;
+        @include max-width(599px){
+            margin-top:40px;
+        }
+    }   
+    .sub-jazz-heading.under-image{
+        margin-top:10px;
+    }
+    .main-list-item{
+        font-weight:900;
+        font-size:18px;
+    }
+    .profile{
+        width:800px;
+        max-width:100%;
+        margin: 0 auto;
+        margin-top:60px;
+        display: block;
+    }
+    .tagline{
+        margin-bottom:40px;
+        text-align: center;
+        display: block;
+        color:#b3b3b3;
+        letter-spacing: 1px;
+    }
+     .tagline-inverted{
+        color:#fff;
+        margin-bottom:40px;
+        text-align: center;
+        display: block;
+        letter-spacing: 1px;
+     }
+    .bullet{
+        max-width:35px;
+        margin-top:5px;
+    }
+    .experience{
+       overflow: auto;
+       background-color: #d9d9d9;
+       padding:10px;
+       width:100%;
+       .experience-content{
+            width:80%;
+            margin:0 auto;
+            @include max-width(599px){
+                width:100%;
+            }
+            .job-title{
+                font-size:16px;
+                margin-left:40px;
+                color:$etsy-orange;
+                margin-top:-5px;
+            }
+       }
+       .entry{
+        margin-bottom:30px;
+        
+           .date{
+                color:#fff;
+                margin-left:40px;
+                margin-top:10px;
+           }
+           .blurb{
+                margin-left:40px;
+                margin-top:10px;
+           }
+           .title{
+            font-size:18px;
+           }
+        }
+        .entry.right{
+            text-align:right;
+            .blurb,.date,.job-title{
+                padding-right:35px ;
+            }
+        }
+    }
+    .end{
+        margin-bottom:20px;
+    }
+}
