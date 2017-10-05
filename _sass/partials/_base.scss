@@ -73,8 +73,8 @@ $skinny-font-path: $url + '/assets/fonts/skinny/skinny';
   font-style: normal;
 }
 
-$futura-font-name: "futura";
-$font-path: $local + '/assets/fonts/futura/futura';
+//$futura-font-name: "futura";
+$futura-font-name: $url + '/assets/fonts/futura/futura';
 
 @font-face {
   font-family: 'futura';
@@ -95,7 +95,7 @@ $font-path: $local + '/assets/fonts/futura/futura';
     src:    url($path+'.woff2') format('woff2'),
             url($path+'.woff') format('woff'),
             url($path+'.ttf') format('truetype'),
-            url($path+'.svg#'+$svg_name) format('svg'),
+            url($path+'.svg##FuturaPT-Bold') format('svg'),
             url($path+'.eot?#iefix') format('embedded-opentype');
     font-weight: normal;
     font-style: normal;
