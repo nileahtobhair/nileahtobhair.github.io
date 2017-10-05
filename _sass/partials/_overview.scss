@@ -44,6 +44,7 @@
             text-align: center;
             padding:15px;
         }
+
         width:70%;
         padding:10px 30px;
          h4{
@@ -162,4 +163,16 @@
         text-align: center;
         padding:10px;
     }
+    .filler{
+        font-size:35px;
+        margin-top:145px;
+        h4{
+
+        }
+    }
+     @media screen and ( min-width: 799px ){
+            .filler{
+                display: none;
+            }
+        }
 }
