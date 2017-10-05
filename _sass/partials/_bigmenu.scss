@@ -1,0 +1,37 @@
+.big-menu{
+	position:fixed;
+	display: inline;
+	top:30px;
+	left:40px;
+	a{
+		text-decoration: none;
+		color:#fff;
+		display: block;
+		text-transform: uppercase;
+		font-family:"futura",gotham;
+		font-weight:900;
+		font-size:64px;
+		line-height: 60px;
+		@media screen and ( max-width: 799px ){
+			font-size:45px;
+		}
+
+	}
+	a:hover{
+		color:#000;
+	}
+	@media screen and ( max-width: 799px ){
+       width:100%;
+       position: fixed;
+       padding:30px 20px;
+       overflow: auto;
+       left:0px;
+       background-color: #b3b2b2;
+       height:100vh;
+     }
+}
+
+.big-heading{
+
+
+}

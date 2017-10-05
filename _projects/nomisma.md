@@ -1,12 +1,12 @@
 ---
-layout: page
+layout: post
 title: nomisma
 permalink: /projects/nomisma
 thumbnail: nomisma.png
 visible : true
 ---
 
-# Nomisma
+
 
 ![alt text](http://niamhlawlor.com/assets/nomisma.png "Nomisma App Logo")
 

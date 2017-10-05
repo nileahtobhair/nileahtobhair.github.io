@@ -2,7 +2,7 @@
 layout: page
 title: Blog
 menu: true
-permalink: /blog/
+permalink: /oldblog/
 ---
 
 

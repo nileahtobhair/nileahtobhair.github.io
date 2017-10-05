@@ -8,6 +8,10 @@
 }
 
 #cv-main{
+    .pdf-link{
+        padding-left:20px;
+        font-size:14px;
+    }
 	.explanation{
 		display: none;
 		@media screen and ( max-width: 992px ){
@@ -19,9 +23,14 @@
     		font-family: skinny;
    		}
 	}
-    img.project-thumbnail{
+    img.thumbnail{
         height:25vh;
         margin-top:15px;
+        width:auto;
+        border:none;
+        padding:0px;
+        border-radius: 0px;
+        background-color: transparent;
         @media screen and ( max-width: 599px ){
         	width:100%;
         	height: auto;
@@ -65,8 +74,9 @@
     	}
     }
     .cv-section{
-        min-height:100vh;
         padding-top:60px;
+        height:auto;
+        min-height:10px;
         @media screen and ( max-width: 992px ){
     		margin-left: 0px;
     		padding-top:10px;
@@ -128,7 +138,7 @@
         }
     }
     .about-profile{
-        width:950px;
+        width:350px;
         display: block;
         margin:20px auto;
         max-width: 100%;
@@ -164,6 +174,7 @@
     }   
     ul{
         list-style: none;
+        margin:0;
         li{
             overflow: auto;
         }

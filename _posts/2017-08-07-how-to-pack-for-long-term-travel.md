@@ -7,6 +7,7 @@ keywords : blog opinion travel
 visible : true
 comments: True
 icon : ""
+menu: false
 permalink: /blog/packingfortravel
 ---
 

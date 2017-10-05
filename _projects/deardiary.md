@@ -1,12 +1,12 @@
 ---
-layout: project
+layout: post
 title: deardiary
 permalink: /projects/deardiary
 thumbnail : deardiary.png
 visible : true
 ---
 
-# Dear Diary
+
 
 <img class='project-main' src='{{site.baseurl}}/assets/deardiary.svg'/>
 

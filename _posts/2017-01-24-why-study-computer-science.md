@@ -6,6 +6,7 @@ category: opinion
 keywords : blog opinion computer science college education
 visible : true
 comments: True
+menu: false
 icon : ""
 permalink: /blog/csopinion
 ---

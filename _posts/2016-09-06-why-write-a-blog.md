@@ -6,6 +6,7 @@ visible : true
 category: opinion
 keywords : blog opinion writing career
 comments: True
+menu: false
 icon : ""
 permalink: /blog/writing
 ---

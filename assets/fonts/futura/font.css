@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'FuturaPT-Bold';
+  src: url('FuturaPT-Bold.eot');
+  src: url('FuturaPT-Bold.woff2') format('woff2'),
+       url('FuturaPT-Bold.woff') format('woff'),
+       url('FuturaPT-Bold.ttf') format('truetype'),
+       url('FuturaPT-Bold.svg#FuturaPT-Bold') format('svg'),
+       url('FuturaPT-Bold.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+

@@ -1,12 +1,10 @@
 ---
-layout: page
+layout: post
 title: ThisIs London
 permalink: /projects/thisis
 thumbnail : thisislondon.png
 visible : true
 ---
-
-# ThisIs London
 
 <img class='project-main' src='{{site.baseurl}}/assets/thisislondon.png'/>
 

@@ -1,34 +1,20 @@
 ---
-layout: cv
+layout: home
 title: CV
 permalink: /CV/
 menu: true
 ---
 <div id="cv-main">
-	<div class="col-md-3 menu-container col-xs-12">
-		<div class='name'>CV</div>
-		
-		<nav class='cv-menu'>
-			<a href="#" class="menu-icon">
-	        	<img src="../pics/menu.svg"/>
-	      	</a>
-	      	<div class='trigger'>
-				<a href='#about'>About</a>
-				<a href='#projects'>Projects</a>
-				<a href='#experience'>Experience / Education</a>
-				<a href='#contact'>Contact</a>
-				<a target="_blank" href='http://niamhlawlor.com/CV-august.pdf'>PDF</a>
-			</div>
-		</nav>
-	</div>
-	<div class='explanation'> Niamh Lawlor CV </div>
-	<div class='col-md-9 pull-right col-xs-12'>
+	<div class='background-container-blog'>
+
+	<div class='big-content'>
+		<h4>CV <a class='pdf-link' target="_blank" href='http://niamhlawlor.com/CV-august.pdf'>(PDF)</a></h4>
 		<div id='about'>
-			<ul class="cv-section">
+			<ul class="">
 				<li class='cv-sub-heading'>
 					<div class='section-heading'>About</div>
 				</li>
-				<li><img class='about-profile' src='../profile-bright.jpg'/></li>
+				<li><img class='about-profile' src='../assets/cutout.png'/></li>
 				<li class='about-blurb'>
 					<p>Hi I'm Niamh. I'm a Software Developer from Dublin. I currently live in London.</p>
 					<p>I graduated from Trinity College Dublin in 2015 with a degree in Computer Science. I have experience as a full stack web developer working with technologies such as NodeJS , React, Javascript , PHP, Wordpress and MySql among others. I enjoy learning new things and work on a number of side projects relating to my interests in my spare time.</p>
@@ -42,7 +28,7 @@ menu: true
 				<li class='cv-sub-heading'>Personal Projects</li>
 				<li>
 					<div class='col-md-4 col-xs-12'>
-						<a target="_blank" href='http://niamhlawlor.com/deadline'><img class='project-thumbnail' src="../assets/deadline.png"/></a>
+						<a target="_blank" href='http://niamhlawlor.com/deadline'><img class='thumbnail' src="../assets/deadline.png"/></a>
 					</div>
 					<div class='col-md-8 col-xs-12 project-description-container'>
 						<span class='project-blurb'>
@@ -56,7 +42,7 @@ menu: true
 				</li>
 				<li>
 					<div class='col-md-4 col-xs-12'>
-						<a target="_blank" href='https://quiet-taiga-8647.herokuapp.com/'><img class='project-thumbnail' src="../assets/freedomchat.svg"/></a>
+						<a target="_blank" href='https://quiet-taiga-8647.herokuapp.com/'><img class='thumbnail' src="../assets/freedomchat.svg"/></a>
 					</div>
 					<div class='col-md-8 col-xs-12 project-description-container'>
 						<span class='project-blurb'>
@@ -73,7 +59,7 @@ menu: true
 				</li>
 				<li>
 					<div class='col-md-4 col-xs-12'>
-						<a target="_blank" href='http://niamhlawlor.com/nomisma-web'><img class='project-thumbnail' src="../assets/nomisma.png"/></a>
+						<a target="_blank" href='http://niamhlawlor.com/nomisma-web'><img class='thumbnail' src="../assets/nomisma.png"/></a>
 					</div>
 					<div class='col-md-8 col-xs-12 project-description-container'>
 						<span class='project-blurb'>
@@ -134,17 +120,8 @@ menu: true
 		<div id='education'></div>
 	<div id='contact'>
 		<ul class="cv-section">
-			<li class="cv-sub-heading">
-				<div class='section-heading col-xs-12'>Contact</div>
-			</li>
-			<div class="contact-form">
-			 <!-- Type form contact-->
-				<div class="typeform-widget" data-url="https://niamh12.typeform.com/to/IE8tjo" data-text="Contact Form" style="width:100%;height:500px;overflow:hidden"></div>
-					<script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'widget.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()
-					</script>
-			</div>
-			<li class='email-contact'>Email : nileahtobhair@gmail.com </li>
 			<li class='email-contact'>Written reference available on request</li>
 		</ul>
 	</div>
+</div>
 </div>

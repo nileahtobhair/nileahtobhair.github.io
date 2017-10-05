@@ -1,0 +1,45 @@
+---
+layout: home
+title: Blog
+title: Blog
+menu: false
+--- 
+
+
+<div class='background-container'>
+  <!--<div class='big-menu'>
+    <a href='/'>Home</a>
+    <a href='/about'>About</a>
+    <a href='/blog'>Blog</a>
+    <a href='/CV'>CV</a>
+    <a href='/projects'>Projects</a>
+    <a href='/contact'>Contact</a>
+  </div>-->
+  <div class='big-content'>
+      <h3 class='big-heading'>Blog</h3>
+      <span>
+        {% for post in paginator.posts %}
+          <div class=''>
+            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+            <h4><a class="" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a></h4>
+         
+          </div>
+        {% endfor %}
+      </span>
+
+      <div class="">
+        {% if paginator.previous_page %}
+          <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
+        {% endif %}
+
+        {% if paginator.next_page %}
+          <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+        {% endif %}
+      </div>
+
+  </div>
+ 
+
+
+<!-- Pagination links -->
+ 

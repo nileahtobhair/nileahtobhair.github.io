@@ -1,24 +1,17 @@
 ---
-layout: default
+layout: home
 ---
-<div class="post">
-  {% if page.mainImage %}
-   <div style='background-image:url({{page.mainImage}})' class='post-overview-image'></div>
-   {% endif %}
-  <!--<img class='main-image' src="{{page.mainImage}}" ></img>-->
-	<div class="wrapper blog-post">
-  		<header class="post-header">
 
-  			<a class='back' href='{{site.baseurl}}/blog'>
-  				<img src="{{site.baseurl}}/pics/x.svg" height="100"></img>
-  			</a>
-    		<div class="post-title main-head">{{ page.title }}</div>
-    		<p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-  		</header>
 
- 		<article class="post-content">
-    		{{ content }}
-  	</article>
-    {%  include structured_data.html title=page.title genre=page.category keywords=page.keywords content=page.content link=page.permalink date=page.date %}
-	</div>
+
+  <div class='big-content'>
+    <div class='blog-post'>
+      <h4 class="">{{ page.title }}</h4>
+      {% if page.date %}
+      <p class="date">{{ page.date | date: "%b %-d, %Y" }} </p>
+      {% endif %}
+      <article class="post-content"> {{ content }} </article>
+    </div>
+  </div>
+        
 </div>

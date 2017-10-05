@@ -1,12 +1,11 @@
 ---
-layout: page
+layout: post
 title: rotaTinder
 permalink: /projects/tinder
 thumbnail : rota.png
 visible : true
 ---
 
-# rotaTinder
 
 <img class='project-main' src='{{site.baseurl}}/assets/rota.png'/>
 

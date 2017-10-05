@@ -1,12 +1,11 @@
 ---
-layout: page
+layout: post
 title: Freedom Chat
 permalink: /projects/freedomchat
 thumbnail: freedomchat.svg
 visible : true
 ---
 
-# Freedom Chat
 
 
 <img class='project-main' src='{{site.baseurl}}/assets/freedomchat.svg'/>

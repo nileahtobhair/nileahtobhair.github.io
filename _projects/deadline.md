@@ -1,12 +1,12 @@
 ---
-layout: page
+layout: projects
 title: Deadline
 permalink: /projects/deadline
 thumbnail : deadline.png
 visible : true
 ---
 
-# Deadline
+
 
 <img class='project-main' src='{{site.baseurl}}/assets/deadline.png'/>
 

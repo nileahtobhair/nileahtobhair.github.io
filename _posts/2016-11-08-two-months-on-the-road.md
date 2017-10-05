@@ -6,6 +6,7 @@ category: nomad
 keywords : blog digitalnomad nomad travel
 visible : true
 comments: True
+menu: false
 icon : ""
 permalink: /blog/digitalnomad
 ---

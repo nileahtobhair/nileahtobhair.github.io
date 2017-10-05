@@ -31,6 +31,19 @@
         margin-bottom:5px;
     }
 }
+.big {
+    .site-nav{
+        @include media-query($on-palm) {
+            position: absolute;
+            top: 0px;
+            padding-top:10px;
+            padding-right:30px;
+            background-color: #b3b2b2;
+            right: 0px;
+            border:none;
+        }   
+    }
+}
 .site-nav {
     float: right;
     line-height: 56px;

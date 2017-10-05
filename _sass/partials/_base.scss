@@ -27,7 +27,7 @@ $on-mini:          200px;
 $etsy-orange:      #FF6C2F;
 
 $url :             'https://niamhlawlor.com'; 
-
+$local : 'https://niamhlawlor.com';
 
 
 @mixin media-query($device) {
@@ -73,6 +73,22 @@ $skinny-font-path: $url + '/assets/fonts/skinny/skinny';
   font-style: normal;
 }
 
+$futura-font-name: "futura";
+$font-path: $local + '/assets/fonts/futura/futura';
+
+@font-face {
+  font-family: 'futura';
+  src: url($futura-font-name+'.eot');
+  src: url($futura-font-name+'.woff2') format('woff2'),
+       url($futura-font-name+'.woff') format('woff'),
+       url($futura-font-name+'.ttf') format('truetype'),
+       url($futura-font-name+'.svg#GothamLight') format('svg'),
+       url($futura-font-name+'.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 @mixin font-loader($name,$path,$svg_name){
     font-family: $name;
     src:    url($path+'.eot');
@@ -84,6 +100,8 @@ $skinny-font-path: $url + '/assets/fonts/skinny/skinny';
     font-weight: normal;
     font-style: normal;
 }
+
+
 
 
 

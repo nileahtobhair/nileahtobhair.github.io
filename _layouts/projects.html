@@ -1,20 +1,15 @@
-<!DOCTYPE html>
-<html>
+---
+layout: home
+---
 
-  {% include head.html %}
 
-  <body>
-  	<div class='projects-template'>
-      {% include header.html %}
-    
-      <div class="page-content">
-        {{ content }}
-      </div>
-      <div class="comments">
-   		{% include comments.html %}
-   	  </div>
-   		{% include footer.html %}
-   	<div>
-  </body>
-
-</html>
+<div class='background-container-blog'>
+  
+  <div class='big-content'>
+    <div class='blog-post project-post'>
+      <h4 class="project-title">{{ page.title }}</h4>
+      <article class="post-content"> {{ content }} </article>
+    </div>
+  </div>
+        
+</div>

@@ -1,12 +1,12 @@
 ---
-layout: page
+layout: post
 title: Leabhar
 permalink: /projects/leabhar
 thumbnail : leabhar.png
 visible : true
 ---
 
-# Leabhar
+
 
 <img class='project-main' src='{{site.baseurl}}/assets/leabhar-logo.png'/>
 
