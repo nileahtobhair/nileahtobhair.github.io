@@ -166,11 +166,9 @@
     .filler{
         font-size:35px;
         margin-top:145px;
-        h4{
-
-        }
+        
     }
-     @media screen and ( min-width: 799px ){
+    @media screen and( min-width: 799px ){
             .filler{
                 display: none;
             }
