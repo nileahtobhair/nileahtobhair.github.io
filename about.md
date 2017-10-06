@@ -8,29 +8,64 @@ menu: true
 <div class='background-container'>
 	
 	<div class='big-content'>
-	    <h3 class='big-heading'>About</h3>
+	    <h3 class='big-heading'>
+	    	About
+	    	<span class='social-links'>
+			    <a target="_blank" id="github" href="http://www.github.com/nileahtobhair">
+			    	<img src="{{site.baseurl}}/pics/github.svg">
+			    </a>
+			    <a target="_blank" href="https://twitter.com/nileahtobhair">
+			      	<img src="{{site.baseurl}}/pics/twitter2.svg">
+			    </a>
+			      <a target="_blank" class="insta-container" href="https://instagram.com/niamhslawlor">
+			      	<img id="insta-link" src="{{site.baseurl}}/assets/instagram.svg">
+			      </a>
+			      
+			      <a target="_blank" href="https://www.linkedin.com/in/nlawlor/">
+			            <img id='linkedin-link' src="{{site.baseurl}}/pics/linkedin.svg">
+			      </a>
+	    </span>
+	    </h3>
 	    <h4>Maker. Traveller. Overthinker.</h4>
 	    <p>My name is Niamh.</p>
 	    <p>I am a Software Developer.</p>
 	    <p>I love to travel.</p>
 	    <p>Contact me <a href="/contact">here.</a></p>
-	    <div class='social-links'>
-	    <a target="_blank" id="github" href="http://www.github.com/nileahtobhair">
-	    	<img src="{{site.baseurl}}/pics/github.svg">
-	    </a>
-	    <a target="_blank" href="https://twitter.com/nileahtobhair">
-	      	<img src="{{site.baseurl}}/pics/twitter2.svg">
-	    </a>
-	      <a target="_blank" class="insta-container" href="https://instagram.com/niamhslawlor">
-	      	<img id="insta-link" src="{{site.baseurl}}/assets/instagram.svg">
-	      </a>
-	      
-	      <a target="_blank" href="https://www.linkedin.com/in/nlawlor/">
-	            <img id='linkedin-link' src="{{site.baseurl}}/pics/linkedin.svg">
-	      </a>
-	    </div>
+	    
 	</div>
 	    	
 	<img class='home-me' src="../assets/cutout.png"/>
+	<ul id='instagram-images'>
+
+	</ul>
 </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+	var $ = jQuery; 
+
+	$( document ).ready(function() {
+		console.log('inside get instagram');
+		var url = "https://api.instagram.com/v1/users/self/media/recent/?access_token=38657779.afbeea0.d46de61ceadb4fe1b1714fac67212736&count=3";
+		
+	    $.ajax({
+	        method: "GET",
+	        url: url,
+	        dataType: "jsonp",
+	        jsonp: "callback",
+	        jsonpCallback: "jsonpcallback",
+	        success: function(data) {
+	           if(data && data.data){
+	           	data.data.map((photo,index)=>{
+	           		var image_url = photo.images.standard_resolution.url;
+	           		$("ul#instagram-images").append('<li><a href="https://www.instagram.com/niamhslawlor/" target="_blank"> <img src='+image_url+' alt="instagram"/></a></li>');
+	           	})
+	           }
+	        },
+	        error: function(jqXHR, textStatus, errorThrown) {
+	         	console.log('error',errorThrown);
+	        }
+    	});
+	});
+	
+</script>
 

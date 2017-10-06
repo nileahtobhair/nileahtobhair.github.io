@@ -19,4 +19,6 @@ markdown: kramdown
 plugins: [jekyll-paginate]
 paginate: 3
 paginate_path: "/blog/page:num/"
+instagram_access : "38657779.afbeea0.d46de61ceadb4fe1b1714fac67212736"
+
 
