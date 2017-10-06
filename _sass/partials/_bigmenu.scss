@@ -17,9 +17,13 @@
 		}
 
 	}
-	a:hover{
+	a:visited:hover,a:hover {
 		color:#000;
 	}
+	a:visited {
+		 color: #fff;
+	}
+
 	@media screen and ( max-width: 799px ){
        width:100%;
        position: fixed;
