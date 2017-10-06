@@ -9,7 +9,7 @@ menu: true
 	
 	<div class='big-content'>
 	    <h3 class='big-heading'>About</h3>
-	    <h4>Maker. Traveller. Dreamer</h4>
+	    <h4>Maker. Traveller. Overthinker.</h4>
 	    <p>My name is Niamh.</p>
 	    <p>I am a Software Developer.</p>
 	    <p>I love to travel.</p>
