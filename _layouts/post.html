@@ -6,6 +6,10 @@ layout: home
 <div class='background-container-blog'>
   <div class='big-content'>
     <div class='blog-post'>
+    	{% if page.mainImage %}
+    		<div style='background-image:url({{page.mainImage}})' class='post-overview-image'></div>
+    	{% endif %}
+    	
       <h4 class="">{{ page.title }}</h4>
       {% if page.date %}
       <p class="date">{{ page.date | date: "%b %-d, %Y" }} </p>

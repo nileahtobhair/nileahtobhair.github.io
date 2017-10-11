@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: default
 title: About
 permalink: /about/
 menu: true
@@ -44,8 +44,7 @@ menu: true
 	var $ = jQuery; 
 
 	$( document ).ready(function() {
-		console.log('inside get instagram');
-		var url = "https://api.instagram.com/v1/users/self/media/recent/?access_token=38657779.afbeea0.d46de61ceadb4fe1b1714fac67212736&count=3";
+		var url = "https://api.instagram.com/v1/users/self/media/recent/?access_token=38657779.afbeea0.d46de61ceadb4fe1b1714fac67212736&count=18";
 		
 	    $.ajax({
 	        method: "GET",
@@ -56,8 +55,10 @@ menu: true
 	        success: function(data) {
 	           if(data && data.data){
 	           	data.data.map((photo,index)=>{
-	           		var image_url = photo.images.standard_resolution.url;
-	           		$("ul#instagram-images").append('<li><a href="https://www.instagram.com/niamhslawlor/" target="_blank"> <img src='+image_url+' alt="instagram"/></a></li>');
+	           		console.log('photo size? ::',photo);
+	           		var image_url = photo.images.thumbnail.url;
+	           		/*$("ul#instagram-images").append('<li><a href="https://www.instagram.com/niamhslawlor/" target="_blank"> <img src='+image_url+' alt="instagram"/></a></li>');*/
+	           		$('.site-nav').append('<a class="insta-append" href="https://www.instagram.com/niamhslawlor/" target="_blank"> <img src='+image_url+' alt="instagram"/></a>');
 	           	})
 	           }
 	        },

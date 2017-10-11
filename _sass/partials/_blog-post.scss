@@ -2,9 +2,12 @@
 
 .post-overview-image{
     background-size:cover;
-    height:500px;
+    height:300px;
+    margin-bottom:20px;
+    margin-top:-30px;
     @include max-width($on-palm) {
         height:150px;
+        margin-top:0px;
     }
 }
 .post{

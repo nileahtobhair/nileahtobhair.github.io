@@ -88,6 +88,15 @@
 }
 .big-body{
     background-color: #b3b2b2;
+    max-height: 100vh;
+    overflow: hidden;
+     @media screen and ( max-width: 799px ){
+        max-height: auto;
+        overflow: visible;
+    }
+}
+.overflow-body{
+     background-color: #b3b2b2;
 }
 
 
