@@ -9,6 +9,7 @@ visible : true
 icon : ""
 cover : ""
 permalink: /blog/minimiseflyinganxiety
+mainImage : "/assets/australia.jpg"
 ---
 
 I started to develop an aversion to flying when I was 18 , after a particularly rough flight to Portugal . I never had any issues with flying in childhood. It's not a mental insecurity . I know that the chance of being involved in an accident is minute, that I'm more likely to die a thousand other ways than in an airplane crash. It's not a logical phobia.
