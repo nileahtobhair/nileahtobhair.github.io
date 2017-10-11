@@ -35,9 +35,7 @@ menu: true
 	</div>
 	    	
 	<img class='home-me' src="../assets/cutout.png"/>
-	<ul id='instagram-images'>
-
-	</ul>
+	
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script>
@@ -55,7 +53,6 @@ menu: true
 	        success: function(data) {
 	           if(data && data.data){
 	           	data.data.map((photo,index)=>{
-	           		console.log('photo size? ::',photo);
 	           		var image_url = photo.images.thumbnail.url;
 	           		/*$("ul#instagram-images").append('<li><a href="https://www.instagram.com/niamhslawlor/" target="_blank"> <img src='+image_url+' alt="instagram"/></a></li>');*/
 	           		$('.site-nav').append('<a class="insta-append" href="https://www.instagram.com/niamhslawlor/" target="_blank"> <img src='+image_url+' alt="instagram"/></a>');
