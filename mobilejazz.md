@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: plain
 title: mobile jazz
 permalink: /mobilejazz/
 menu: false
