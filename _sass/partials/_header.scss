@@ -107,7 +107,8 @@
         }
 
         .trigger {
-            clear: both;
+            clear: none;
+            overflow: auto;
             display: none;
         }
 
